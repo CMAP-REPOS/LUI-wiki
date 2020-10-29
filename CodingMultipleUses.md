@@ -152,4 +152,6 @@ include:
 This section will get updated whenever a multi-use question is asked (&
 answered)
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

@@ -504,4 +504,6 @@ truck/rail/marine transport. Does not include single-company facilities
 
 **Q&A:**
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

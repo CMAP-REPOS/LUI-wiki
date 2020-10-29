@@ -349,4 +349,6 @@ photo above under **3300**.
         **3500 Trail or
         Greenway**.<img src="3500_1.PNG" title="fig:3500_1.PNG" width="150" alt="3500_1.PNG" />
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

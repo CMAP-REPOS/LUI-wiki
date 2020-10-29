@@ -31,8 +31,6 @@ Therefore, we will consider it **9999 Not Classifiable**.
         category in the classification scheme that describes it.
         <img src="9999_1.PNG" title="fig:9999_1.PNG" width="200" alt="9999_1.PNG" />
 
-<!-- -->
-
 -   *Q: Below is ONE parcel that is listed as unknown/miscellaneous.
     Part of it is a river; the other part is a railroad. How should this
     be coded?*
@@ -42,5 +40,7 @@ Therefore, we will consider it **9999 Not Classifiable**.
         land use, but in this case the rail portion of this one parcel
         is much smaller than the river portion. Let's use **9999**.
         <img src="9999_2.PNG" title="fig:9999_2.PNG" width="200" alt="9999_2.PNG" />
+
+---
 
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

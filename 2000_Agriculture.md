@@ -212,4 +212,6 @@ be coded as **Residential**.
         is being farmed, then code it **1322 Post Secondary Educational
         Institution**.
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

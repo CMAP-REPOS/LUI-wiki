@@ -536,8 +536,6 @@ Bing Birds-Eye and Google Street View to verify.
         standpoint, code this as **1250 Hotel/Motel**.
         <img src="1250_2.PNG" title="fig:1250_2.PNG" width="300" alt="1250_2.PNG" />
 
-<!-- -->
-
 -   *Q: The parcel highlighted in turquoise in the photo below is coded
     as residential by the county, but it appears to be something else.
     Not only does it have a large parking lot, but it also has a giant
@@ -560,5 +558,7 @@ Bing Birds-Eye and Google Street View to verify.
         weddings/meetings need a place to park. So, I say to code it
         1250 Hotel/Motel.
         <img src="1250_3.PNG" title="fig:1250_3.PNG" width="300" alt="1250_3.PNG" />
+
+---
 
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

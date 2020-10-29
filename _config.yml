@@ -1,3 +1,5 @@
+title: CMAP Land Use Inventory Wiki
+description: A field guide to Land Use Inventory classifications
 plugins:
   - jekyll-relative-links
 relative_links:

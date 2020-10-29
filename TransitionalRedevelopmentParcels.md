@@ -35,4 +35,6 @@ COMMENT field for that parcel—write a simple description such as
 have the tool write a “T” in the MODIFIER field which will serve as the
 Transitional indicator.
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

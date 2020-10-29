@@ -29,4 +29,6 @@ is not an actual detention/retention basin structure, code this **Water
 
 **Q&A:**
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*

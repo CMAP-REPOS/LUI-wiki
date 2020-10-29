@@ -330,4 +330,6 @@ these as **Storage 1450**.
         public storage even though the customer storing the property is
         a small business.
 
+---
+
 *Return to [A field guide to Land Use Inventory classifications](./README.md)*
