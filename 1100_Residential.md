@@ -10,23 +10,25 @@ homes are included in Medical and Health Care Facilities; college
 dormitories would appear in Educational Facilities.
 
 **The difference between single-family and multi-family:**
-*Single-Family Residential* includes all single-family housing, as well
-as multi-unit structures (i.e. townhomes and duplexes) whose units do
-not share a common entryway, but rather, each unit has a separate front
-entrance. Residential parcels in established neighborhoods with no
-structures are included, with the RESUNIT count set to zero.
-*Multi-Family Residential* includes multiple-unit residential buildings
-with a common entryway. Includes retirement complexes (except nursing
-homes), as well as two-flats, three-flats, condominiums and
-cooperatives. Also includes SROs (buildings with single-room occupancy).
-With two-flats and three-flats, while each unit may have a separate
-front entrance, the fact that one unit is on top of another unit puts it
-in the multi-family classification.
 
-**NOTE:** IF one parcel should happen to have BOTH single-family AND
+-   *Single-Family Residential* includes all single-family housing, as well
+    as multi-unit structures (i.e. townhomes and duplexes) whose units do
+    not share a common entryway, but rather, each unit has a separate front
+    entrance. Residential parcels in established neighborhoods with no
+    structures are included, with the RESUNIT count set to zero.
+
+-   *Multi-Family Residential* includes multiple-unit residential buildings
+    with a common entryway. Includes retirement complexes (except nursing
+    homes), as well as two-flats, three-flats, condominiums and
+    cooperatives. Also includes SROs (buildings with single-room occupancy).
+    With two-flats and three-flats, while each unit may have a separate
+    front entrance, the fact that one unit is on top of another unit puts it
+    in the multi-family classification.
+
+**NOTE:** If one parcel should happen to have BOTH single-family AND
 multi-family residential units in the SAME parcel, then go with the
 concept of coding to the more ACTIVE land use which in this case would
-be Multi-family Residential.
+be multi-family Residential.
 
 **AS OF THE 2015 INVENTORY we are attempting to assign residential unit
 estimates to every residential parcel, meaning:**
@@ -50,7 +52,7 @@ other residential areas by the 1130 Multi-Family and 1140 Mobile Home
 Park codes.
 
 **Scattered Single-family or small-multi-family residences owned by an
-institution"** Be aware that some individual houses or occasionally
+institution:** Be aware that some individual houses or occasionally
 townhomes or small multi-family buildings may be owned by a government
 entity or a social service organization. When evidence supports that
 they are being used as residences, not offices, these should be coded
@@ -67,7 +69,9 @@ Individual Development.
 **Definition:** One housing unit per free-standing residential
 structure. Can include un-developed Residential properties when adjacent
 to a developed property with the same owner. Residential unit estimate
-required. **Discussion:** This is your classic "one home per parcel,"
+required.
+
+**Discussion:** This is your classic "one home per parcel,"
 and is probably the most frequently-occurring use in the region. For
 most counties, a large number of properties were pre-coded using an
 automated (or query-based) approach; this was possible where we had
@@ -84,7 +88,9 @@ In McHenry County, this procedure accounted for nearly 50% of all of the
 parcels. In reality, there is likely some mis-coding of duplex buildings
 that sit on a single parcel. This is one of the hazards of automation,
 and will hopefully be caught by the diligent coder while working on the
-remaining residential parcels. **Very tiny parcels:** Occasionally in
+remaining residential parcels.
+
+**Very tiny parcels:** Occasionally in
 residential areas, especially those with single-family detached parcels,
 you will find a very tiny parcel which has an owner that is completely
 different from any adjacent parcel. Possibly the county overlooked this
@@ -94,10 +100,13 @@ this parcel, go ahead and code it the same as the other adjacent parcels
 which in **Single-Family Detached** neighborhoods would be **1111**. Be
 sure this tiny parcel has a zero in the residential units field. Below
 is an example of such a tiny parcel.
+
 ![](./img/1111_2.PNG)
 
 **Examples:**
+
 Suburban development, lots approximately 1/4-acre.
+
 ![](./img/1111_1.PNG)
 
 **Q&A:**
@@ -124,62 +133,62 @@ Suburban development, lots approximately 1/4-acre.
 
 -   *Q: What about a single undeveloped parcel within an established
     (neighborhood/subdivision)?*
--   **A:** If the parcel is of roughly equal size to the surrounding
-    parcels and is not owned by someone who owns an adjacent,
-    developed property, then that parcel gets coded **4110 Vacant
-    Residential Land**. However, if it is a newer subdivision that
-    is simply not yet built out, then...
-    -   ...if it is farmed in the 2010 aerials, it should be coded
-        **Agriculture (2000)**, with PLATTED = "R"
-    -   ...if it is simply vacant (trees or grass), code it
-        **Vacant (4100)**, with PLATTED = "R"
-    -   ...if there is scraped earth or other evidence of constructions,
-        code it **4210 Under Construction, Residential**.
--   **A:** One exception to the above 4110 code is if that
-    undeveloped parcel which has a different owner from all the
-    surrounding parcels, is land locked, meaning there's no way to
-    get to this property unless you cross property owned by someone
-    else. In this case, code it with the same residential code as
-    the surrounding parcels and make sure there's "0" value in the
-    residential units field. Vacant implies it can be built upon
-    which is not likely in this case.
+    -   **A:** If the parcel is of roughly equal size to the surrounding
+        parcels and is not owned by someone who owns an adjacent,
+        developed property, then that parcel gets coded **4110 Vacant
+        Residential Land**. However, if it is a newer subdivision that
+        is simply not yet built out, then...
+        -   ...if it is farmed in the 2010 aerials, it should be coded
+            **Agriculture (2000)**, with PLATTED = "R"
+        -   ...if it is simply vacant (trees or grass), code it
+            **Vacant (4100)**, with PLATTED = "R"
+        -   ...if there is scraped earth or other evidence of constructions,
+            code it **4210 Under Construction, Residential**.
+    -   **A:** One exception to the above 4110 code is if that
+        undeveloped parcel which has a different owner from all the
+        surrounding parcels, is land locked, meaning there's no way to
+        get to this property unless you cross property owned by someone
+        else. In this case, code it with the same residential code as
+        the surrounding parcels and make sure there's "0" value in the
+        residential units field. Vacant implies it can be built upon
+        which is not likely in this case.
 
 -   *Q: How do I code a separate parcel owned by a religous organization
     that primarily has a house on it while the actual religous
     organization building for assembly is on a different parcel?*
--   **A:** Code this as residential if only the house is on the
-    parcel, not the building in which the congregation meets.
-    Remember to code the residential units as "1".
+    -   **A:** Code this as residential if only the house is on the
+        parcel, not the building in which the congregation meets.
+        Remember to code the residential units as "1".
 
 -   *Q: What if a house is used by a religious or other non-profit
     organization solely as offices and there is no indication that
     anyone lives in the house?*
--   **A:** Code the parcel for this house used solely as offices as
-    **1215 urban mix**.
+    -   **A:** Code the parcel for this house used solely as offices as
+        **1215 urban mix**.
 
 -   *Q: Six houses are all on one parcel owned by a mission
     organization. How do I code this?*
--   **A:** Code this as **111 Single-family detached**. Change the
-    number in the residential units field to the number of houses on
-    this one parcel which in this example would be "6".
+    -   **A:** Code this as **111 Single-family detached**. Change the
+        number in the residential units field to the number of houses on
+        this one parcel which in this example would be "6".
 
 -   *Q: How do I code a parcel with a house on it and owner is a county
     health department?*
--   **A:** Unless you have information that this house is solely
-    used as offices for the organization, assume that it is a
-    residence. It is probably a group home run by a county
-    organization. Code it **111 Single-family detached residential**
-    with residential units of "1".
+    -   **A:** Unless you have information that this house is solely
+        used as offices for the organization, assume that it is a
+        residence. It is probably a group home run by a county
+        organization. Code it **111 Single-family detached residential**
+        with residential units of "1".
 
 -   *Q: How do I code a parcel identified as AG by the county that has a
     farm house on it?*
--   **A:** If the parcel identified by the county as agriculture
-    that has a house on it is 1 acre or less (43,560 sq ft) then
-    code it **1111 Single-family detached** with "1" in the
-    residential units field. If the parcel is larger than that and
-    agriculture is the appropriate code, then code it **2000
-    Agriculture**. In this case, put nothing in the residential
-    units field.
+    -   **A:** If the parcel identified by the county as agriculture
+        that has a house on it is 1 acre or less (43,560 sq ft) then
+        code it **1111 Single-family detached** with "1" in the
+        residential units field. If the parcel is larger than that and
+        agriculture is the appropriate code, then code it **2000
+        Agriculture**. In this case, put nothing in the residential
+        units field.
 
 -   *Q: How do I code a relatively small parcel identified by the county
     as AG which is next to a residential parcel with the same owner.
@@ -187,100 +196,102 @@ Suburban development, lots approximately 1/4-acre.
     The AG parcel has nothing on it that in any way would suggest
     agriculture; nothing that looks like it's used for commercial
     agricultural.*
--   **A:** Code this as **1111 Single family detached** with "0" in
-    the residential units field. Below is more about **Rural
-    Residential** which is also discussed under Agriculture.
+    -   **A:** Code this as **1111 Single family detached** with "0" in
+        the residential units field. Below is more about **Rural
+        Residential** which is also discussed under Agriculture.
 
-    A house in a rural setting on a large parcel with a private barn and
-    horses would be coded **Residential** unless there is evidence that it
-    is a commercial equestrian operation. Below are two examples of **Rural
-    Residential** which would be coded **Residential** Land Use even though
-    the county may classify such land as agriculture or farm. In the first
-    photo, this Rural Residence is on 3 parcels. The small one on the far
-    right is the house. The other two are coded by the county as farm, but
-    there is no evidence of any commercial crop or grazing so this is coded
-    **1111 (Single-Family Detached)** with one residential unit in the
-    parcel containing the house and zero in the other two parcels, all of
-    which have the same owner.
-    ![](./img/1111_4.PNG)
+        A house in a rural setting on a large parcel with a private barn and
+        horses would be coded **Residential** unless there is evidence that it
+        is a commercial equestrian operation. Below are two examples of **Rural
+        Residential** which would be coded **Residential** Land Use even though
+        the county may classify such land as agriculture or farm. In the first
+        photo, this Rural Residence is on 3 parcels. The small one on the far
+        right is the house. The other two are coded by the county as farm, but
+        there is no evidence of any commercial crop or grazing so this is coded
+        **1111 (Single-Family Detached)** with one residential unit in the
+        parcel containing the house and zero in the other two parcels, all of
+        which have the same owner.
 
-    In the second photo, the house is in one parcel and the private horse
-    stables are in an adjoining parcel with the same owner. This also will
-    be coded as **Residential**.
-    ![](./img/1111_3.PNG)
+        ![](./img/1111_4.PNG)
+
+        In the second photo, the house is in one parcel and the private horse
+        stables are in an adjoining parcel with the same owner. This also will
+        be coded as **Residential**.
+
+        ![](./img/1111_3.PNG)
 
 -   *Q: How do I code parcels that are part of a homeowners association
     that has a private air strip?*
--   **A:** Code the parcels that strictly are part of the actual air
-    strip and associated air transport facilities as **1530 Aircraft
-    Transportation**. Parcels for the housing will have the
-    appropriate residential code as will also be true for any common
-    open space which is part of the association.
+    -   **A:** Code the parcels that strictly are part of the actual air
+        strip and associated air transport facilities as **1530 Aircraft
+        Transportation**. Parcels for the housing will have the
+        appropriate residential code as will also be true for any common
+        open space which is part of the association.
 
 -   *Q: In residential areas I occasionally have found what first
     appears to be a house owned by a government entity, usually a
     municipality. Upon closer inspection, I find it is a water pumping
     station in a house-like structure I guess to blend better into the
     neighborhood. How do I code this?*
--   **A:** Yes, you occasionally will find water pumping stations in
-    neighborhoods masquerading as small houses! Code this **1564
-    Other Utility/Waste**. In other cases, you may find a residence,
-    usually a house, with a county government, non-profit social
-    service agency, or religious organization owner. These are often
-    group homes for agency clients or living quarters for members of
-    that religious organization. Code these as you would any other
-    residence based on the building structure.
+    -   **A:** Yes, you occasionally will find water pumping stations in
+        neighborhoods masquerading as small houses! Code this **1564
+        Other Utility/Waste**. In other cases, you may find a residence,
+        usually a house, with a county government, non-profit social
+        service agency, or religious organization owner. These are often
+        group homes for agency clients or living quarters for members of
+        that religious organization. Code these as you would any other
+        residence based on the building structure.
 
 -   *Q: How do I code a parcel that is identified as residential by the
     county and with 1 residential unit on it, but the aerial photo shows
     that the parcel has a small church and parking lot on it and also a
     house on it?*
--   **A:** Code this for the church and not for the house. Code it
-    **1350 Religious** and have 0 in the residential units field.
-    Even though there is a house on this parcel, ONLY parcels coded
-    as residential will contain a residential unit number in the
-    final processing.
+    -   **A:** Code this for the church and not for the house. Code it
+        **1350 Religious** and have 0 in the residential units field.
+        Even though there is a house on this parcel, ONLY parcels coded
+        as residential will contain a residential unit number in the
+        final processing.
 
 -   *Q: How do I code a model home owned by a developer which has not
     been sold yet to a private individual?*
--   **A:** Code a model home as whatever code is appropriate for that
-    house structure, single-family detached or attached (**1111 or
-    1112**); put the appropriate number in the residential units field
-    as though it had occupants. If an adjacent parcel is being used for
-    parking for the model home or is just vacant and also owned by the
-    developer, code this **Residential Vacant 4110** because the parking
-    will eventually be gone and a residence will most likely be built on
-    the adjacent parcel. Because of the 2010 Landuse being used for
-    modeling purposes, we must not just look at the specific way a
-    particular parcel is being used in spring 2010 but also consider the
-    overall purpose of the property.
+    -   **A:** Code a model home as whatever code is appropriate for that
+        house structure, single-family detached or attached (**1111 or
+        1112**); put the appropriate number in the residential units field
+        as though it had occupants. If an adjacent parcel is being used for
+        parking for the model home or is just vacant and also owned by the
+        developer, code this **Residential Vacant 4110** because the parking
+        will eventually be gone and a residence will most likely be built on
+        the adjacent parcel. Because of the 2010 Landuse being used for
+        modeling purposes, we must not just look at the specific way a
+        particular parcel is being used in spring 2010 but also consider the
+        overall purpose of the property.
 
 -   *Q: How would one code a house that also has buildings and fencing
     determined by internet searches to be for dog breeding?*
--   **A:** Dog breeding does not fit our Landuse definition for
-    Agriculture, so even if the county coded it as agriculture, code it
-    as *' 1100 Single-family Detached*' with 1 residential unit. If
-    there is a Dun & Bradstreet point indicating a business AND you
-    could see substantial buildings in addition to a house indicating
-    significant business activity AND the county coded it commercial,
-    you could consider coding it **1216 Urban Mix With Residential
-    Component** with no residential units needed.
+    -   **A:** Dog breeding does not fit our Landuse definition for
+        Agriculture, so even if the county coded it as agriculture, code it
+        as *' 1100 Single-family Detached*' with 1 residential unit. If
+        there is a Dun & Bradstreet point indicating a business AND you
+        could see substantial buildings in addition to a house indicating
+        significant business activity AND the county coded it commercial,
+        you could consider coding it **1216 Urban Mix With Residential
+        Component** with no residential units needed.
 
 -   *Q: How do I code a parcel owned by the State of Illinois that has 2
     houses on it which appear to be occupied and used as homes, not
     offices for state employees. The county use code is Exempt. Zero is
     in the Residential Units field.*
--   **A:** The count in the Residential Units field is a guess based
-    on other information found in the parcel data during
-    pre-processing. In this case, the reason for the zero is because
-    of the Exempt status by the county. The State of Illinois owns
-    some parcels that continue to have active residences because
-    they bought that land in anticipation of a future development
-    project such as an expressway, a bypass, a new airport, etc. If
-    you see evidence that the parcel is being used as residence,
-    then even though it is owned by State of Illinois, code it with
-    the appropriate Residential code and change the Residential
-    Units to the correct number.
+    -   **A:** The count in the Residential Units field is a guess based
+        on other information found in the parcel data during
+        pre-processing. In this case, the reason for the zero is because
+        of the Exempt status by the county. The State of Illinois owns
+        some parcels that continue to have active residences because
+        they bought that land in anticipation of a future development
+        project such as an expressway, a bypass, a new airport, etc. If
+        you see evidence that the parcel is being used as residence,
+        then even though it is owned by State of Illinois, code it with
+        the appropriate Residential code and change the Residential
+        Units to the correct number.
 
 
 ## Single-Family Residential, Attached (1112)
@@ -304,12 +315,14 @@ building by owner. The property to the left is part of the same
 development, but the county's parcel file depicted it differently,
 forcing all of the units to get merged together into a single polygon
 during the pre-processing steps.
+
 ![](./img/1112_1.PNG)
 
 Duplexes. Note that the buildings are of similar size to the
 single-family detached to the north-west. Duplexes tend to have a more
 symmetrical footprint and, hopefully, have a parcel line running down
 through them.
+
 ![](./img/1112_2.PNG)
 
 This is a rental property
@@ -319,6 +332,7 @@ definition. Note the numerous driveways in front of the building,
 suggesting that there is a separate garage (& entryway) for each unit.
 Below is the same development, shown in Bing Maps oblique (bird's eye)
 imagery:
+
 ![](./img/1112_3.PNG)
 ![](./img/1112_4.PNG)
 
@@ -332,6 +346,7 @@ garage parking for that townhouse unit. Be sure to have zero for the
 residential units for the separate garage parcels if they are, indeed,
 separate parcels. Also be aware, that sometimes each townhouse parcel
 and garage parcel is combined into one multi-part polygon.
+
 ![](./img/1112_6.PNG)
 ![](./img/1112_5.PNG)
 
@@ -344,6 +359,7 @@ Attached**. Be sure there is a ZERO in the residential units for the
 separate parking parcels. If these separate parking parcels were owned
 by a Homeowners Assocation or by a building management company, they
 would then be coded as **1151 Residential Common**.
+
 ![](./img/1112_7.PNG)
 
 **Q&A:**
@@ -376,7 +392,8 @@ would then be coded as **1151 Residential Common**.
         townhouses, the additional presence of the apartment building
         would mean **1131 Multi-Family Residential** would be the most
         appropriate code.
-        ![](./img/1131_6.PNG
+
+        ![](./img/1131_6.PNG)
 
 
 ## Multi-Family Residential (1130)
@@ -417,15 +434,19 @@ high housing unit count) and the 2005 Land Use Inventory 1130
 **Examples:**
 
 Apartment complex in DuPage County.
+
 ![](./img/1131_1.PNG)
 
 Chicago: two-flats, three-flats, and courtyard buildings.
+
 ![](./img/1131_2.PNG)
 
 Apartment buildings in Aurora...
+
 ![](./img/1131_3.PNG)
 
 ...and how they look in Bing Bird's Eye (rotated).
+
 ![](./img/1131_4.PNG)
 
 **Q&A:**
@@ -442,22 +463,29 @@ Apartment buildings in Aurora...
         building there may be two separate front entrances but the flats
         are one on top of the other so this will qualify it to be coded
         as 1130 Multi-Family.
+
 -   *Q: The photo below shows a 2-story California-style apartment
     building in which each apartment has a separate front entrance. How
     should this be coded?*
+
     ![](./img/1131_5.PNG)
+
     -   **A:** Even though each apartment has a separate entrance, it is
         also a two-story building so units are on top of one another.
         This meets the criteria to code it **1130 Multi-Family**.
+
 -   *Q: How do I code a separate parcel that's owned by a college, but
     is clearly apartments for students? Is it multifamily residential or
     is it higher education institutional?*
     -   **A:** Code this as higher education institutional and make sure
         there is a "0" in the residential units field.
+
 -   *Q: How do I decide if a parcel should be coded 1250 Hotel/Motel or
     1130 Multi-Family Residential? The photo below shows this building
     to have rooms for rent, weekly or monthly only.*
+
     ![](./img/1250_1.PNG)
+
     -   **A:** The main reference layer to use will be the Census data.
         Look at how many housing units are in that census block in the
         HU\_TOT field. If the only way to account for that number would
@@ -503,10 +531,12 @@ to 3400, Non-Public Open Space.
 **Examples:**
 
 Mobile home court in Aurora.
+
 ![](./img/1140_1.PNG)
 
 Manufactured home community: Willow Lake Estates in Elgin. Resembles a
 trailer park, but functionally more like single-family. Code 1111.
+
 ![](./img/1140_2.PNG)
 
 **Q&A:**
@@ -527,7 +557,9 @@ trailer park, but functionally more like single-family. Code 1111.
 
 **Definition:** Common open space in a residential development; may be
 managed by homeowners’ association (HOA) or owned by the local
-municipality. **Discussion:** These parcels are fairly common in newer
+municipality.
+
+**Discussion:** These parcels are fairly common in newer
 developments, and basically represent the portions of a residential
 development that are not given over to private ownership. This may
 include park-like green space, detention basins, parking, or buffer
@@ -550,8 +582,8 @@ similar to HOA land; any parcels totally water would be coded as Water.
 **A Query to Identify the Majority of these Properties:** This set of
 queries can be used to select the majority of these properties:
 
-1.  Select by Attributes in the landuse layer where TAXNAME LIKE
-    '%HOME%ASSOC%'
+1.  Select by Attributes in the landuse layer where `TAXNAME LIKE
+    '%HOME%ASSOC%'`
 2.  Then select from that set only those records that are uncoded
 3.  And select from that group only the residential parcels
 4.  And select from that group those with an improvement value of 0
@@ -577,9 +609,11 @@ selection set.
 **Examples:**
 
 Homeowner association land in a subdivision near Batavia.
+
 ![](./img/1151_1.PNG)
 
 Common area surrounding a townhome development (shaded parcels).
+
 ![](./img/1151_2.PNG)
 
 **Deciding between 1151 Residential Common or 1565 Stormwater
@@ -595,6 +629,7 @@ parcel on the north side of this pond so Open Space will only be a good
 code for that one very small parcel barely visible in this photo on the
 north side. All the other city-owned parcels should be coded **1565
 Stormwater**.
+
 ![](./img/1565_3.PNG)
 
 **Q&A:**
@@ -608,6 +643,7 @@ Stormwater**.
     parcel for visitor parking in a townhome development.
     -   **A:** Go ahead and also code these areas 1151 Common Open
         Space. Make sure there is a "0" in the residential units field.
+
 -   ''Q: How do I code a recreation building with tennis courts and/or
     outdoor pool that is in a separate parcel and owned by a homeowners
     association?
@@ -616,12 +652,14 @@ Stormwater**.
         internet to see if it is a designated park or recreaton center
         in that town. If so, it would be coded **3100 Open Space,
         Recreation**.
+
 -   *Q: How do I code a 9-hole putting green owned by a homeowners
     association and in a separate parcel?*
     -   **A:** Code this as **1151 Common Open Space**. This is because
         it is owned by an HOA. In order to better automate parcel-based
         landuse in the future, we are putting more emphasis than before
         on owner.
+
 -   *Q: Where do we draw the line between Common Open Space in a
     Residential Development (1151) and Open Space, Primarily Recreation
     (3100)? Grande Park is a massive residential development surrounding
@@ -637,6 +675,7 @@ Stormwater**.
         district and looks like it could be used for recreation as open
         space then code it 3100 open space recreation. This applies to
         the trail system parcels owned by the park district as well.
+
 -   Q:'' What about the common areas of a new development that appear to
     be finished such as retention ponds in place, bushes planted, etc.
     but most of the residential lots do not have houses on them yet?''
