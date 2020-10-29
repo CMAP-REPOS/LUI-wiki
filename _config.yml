@@ -1,1 +1,18 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - CodingMultipleUses.md
+  - TransitionalRedevelopmentParcels.md
+  - 1100_Residential.md
+  - 1200_Commercial.md
+  - 1300_Institutional.md
+  - 1400_Industrial.md
+  - 1500_TransportationCommunicationsUtilities.md
+  - 2000_Agriculture.md
+  - 3000_OpenSpace.md
+  - 5000_Water.md
+  - 9999_NotClassifiable.md
