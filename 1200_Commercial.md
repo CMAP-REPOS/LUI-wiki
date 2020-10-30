@@ -7,7 +7,7 @@
 Detention/retention basins occupying commercial parcels are coded **1565
 Stormwater Management**.
 
-## Primarily Retail/Service
+## Primarily Retail/Service (1210 Series)
 
 ### Shopping Malls (1211)
 
