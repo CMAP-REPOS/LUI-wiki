@@ -10,9 +10,7 @@ in those instances, the land is coded as Agriculture, with the planned
 land use (Residential, Commercial, Industrial, Other) identified in the
 PLATTED modifier.
 
-**Discussion:**
-
-While the previous inventories tried to split out the
+**Discussion:** While the previous inventories tried to split out the
 "farmhouses" from the surrounding agricultural land, in this version
 these properties are counted as Agricultural, but with (where
 applicable) a RES\_UNIT count of "1" applied to each parcel where,
@@ -228,7 +226,7 @@ be coded as **Residential**.
         the ones with at least 25% agricultural activity as **2000
         Agriculture** and put a **O** in the PLATTED Modifier field for
         the Ag ones.
-        
+
 -   *Q: Governors State University owns several parcels that are being
     farmed. They have no agriculture-related program. How should these
     be coded?*
