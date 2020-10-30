@@ -583,7 +583,7 @@ lake side areas, you will find HOAs that also join together to form
 support the lake ecosystem. "Water association" land will be treated
 similar to HOA land; any parcels totally water would be coded as Water.
 
-**A Query to Identify the Majority of these Properties:** This set of
+***A Query to Identify the Majority of these Properties:*** This set of
 queries can be used to select the majority of these properties:
 
 1.  Select by Attributes in the landuse layer where `TAXNAME LIKE
@@ -621,7 +621,7 @@ Common area surrounding a townhome development (shaded parcels).
 ![](./img/1151_2.PNG)
 
 **Deciding between 1151 Residential Common or 1565 Stormwater
-Management** The retention pond and surrounding land in the photo below
+Management.** The retention pond and surrounding land in the photo below
 is Exempt by the county and owned by the City of Hickory Hills which are
 two criteria that could fit for a **1151** code. However, since it only
 has residential bordering on about 50% of the the property, we will rule
