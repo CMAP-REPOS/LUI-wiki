@@ -1,7 +1,4 @@
-# Water (5000 series)
-
-Water (5000)
-------------
+# Water (5000)
 
 **Definition:** Parcel is predominantly water.
 
@@ -21,14 +18,17 @@ If such boat slip parcels happened to be owned by a HOA or water
 assocation and they were totally water, also code these as **5000
 Water**.
 
-**Examples:** **Example 1:** In the photo below, a separate parcel only
-contains what appears to be the remnants of a natural stream. Because it
-is not an actual detention/retention basin structure, code this **Water
-5000**.
-<img src="5000_1.PNG" title="fig:5000_1.PNG" width="150" alt="5000_1.PNG" />
+**Examples:**
+
+-   **Example 1:** In the photo below, a separate parcel only
+    contains what appears to be the remnants of a natural stream. Because it
+    is not an actual detention/retention basin structure, code this **Water
+    5000**.
+
+    ![](./img/5000_1.PNG)
 
 **Q&A:**
 
 ---
 
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
+*Return to [A field guide to Land Use Inventory classifications](./index.md)*

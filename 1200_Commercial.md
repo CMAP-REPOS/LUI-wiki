@@ -1,10 +1,13 @@
 # Commercial Land Uses (1200 series)
 
+**Contents**
+* TOC
+{:toc}
+---
 Detention/retention basins occupying commercial parcels are coded **1565
 Stormwater Management**.
 
-*Primarily Retail/Service*
---------------------------
+## Primarily Retail/Service
 
 ### Shopping Malls (1211)
 
@@ -18,17 +21,19 @@ ReferenceData folder
 **Discussion:** There are a total of 27 malls in the region of this
 size. This list is determined solely on data provided by CoStar, based
 on a region-wide query of shopping centers; only these 27 malls should
-receive the 1211 code. [List of
-Malls](file://///cmap.local/shared/Projects\LandUseInventory\LUI_2010\Docs\WikiDocs\TableOf1211.xlsx).
+receive the 1211 code. <!--[List of
+Malls](file://///cmap.local/shared/Projects\LandUseInventory\LUI_2010\Docs\WikiDocs\TableOf1211.xlsx).-->
 This classification should include the entire mall and associated
 parking, access roads and landscaping. This category should NOT include
 peripheral commercial properties that are not owned/managed by the mall
 (such as restaurants & banks found outside of a mall's perimeter road).
 
 **Examples:** Spring Hill Mall and peripheral uses.
-![](1211_1.PNG "fig:1211_1.PNG")
+
+![](./img/1211_1.PNG)
 
 **Q&A:**
+
 
 ### Regional & Community Retail Centers (1212)
 
@@ -45,26 +50,27 @@ to ensure that the center isn't actually a stand-alone big box store
 centers that did not make the CoStar list. As with the malls, perimeter
 stores not associated with the main shopping center are not included.
 
-**Examples:** **Example 1:**Two Regional/Community centers in South
-Elgin, with peripheral "urban mix": In the photo below, each of the
-parcels shown to be coded 1215 Urban Mix have a **different owner**
-which is not the same as the owner of the shopping center parcels, The
-Shops at South Elgin and The Shoppes of Stony Creek. Also each urban mix
-parcel has some land devoted to parking for that building.
-![](1212_1.PNG "fig:1212_1.PNG")
+**Examples:**
 
-**Example 2:** The photo below is a bit different situation. Five of the
-six small parcels on the west side of this shopping center all thave the
-SAME owner as all the parcels for the shopping center. Because the owner
-is the same, code these **1212** also. Even the very small southern most
-parcel with a different owner, has no parking as part of that parcel.
-Patrons of that restaurant must park in shopping center lots. In this
-case, also code this parcel the same as the other small parcels,
-**1212**.
+-   **Example 1:**Two Regional/Community centers in South
+    Elgin, with peripheral "urban mix": In the photo below, each of the
+    parcels shown to be coded 1215 Urban Mix have a **different owner**
+    which is not the same as the owner of the shopping center parcels, The
+    Shops at South Elgin and The Shoppes of Stony Creek. Also each urban mix
+    parcel has some land devoted to parking for that building.
 
-<figure>
-<img src="1212_2.PNG" title="1212_2.PNG" width="200" alt="1212_2.PNG" /><figcaption aria-hidden="true">1212_2.PNG</figcaption>
-</figure>
+    ![](./img/1212_1.PNG)
+
+-   **Example 2:** The photo below is a bit different situation. Five of the
+    six small parcels on the west side of this shopping center all thave the
+    SAME owner as all the parcels for the shopping center. Because the owner
+    is the same, code these **1212** also. Even the very small southern most
+    parcel with a different owner, has no parking as part of that parcel.
+    Patrons of that restaurant must park in shopping center lots. In this
+    case, also code this parcel the same as the other small parcels,
+    **1212**.
+
+    ![](./img/1212_2.PNG)
 
 **Q&A:**
 
@@ -79,6 +85,7 @@ case, also code this parcel the same as the other small parcels,
         week it is either closed or activities are restricted to the
         outdoor portion of the property. Because of this, **1215 Urban
         Mix** is a more appropriate code.
+
 
 ### Single Large-Site Retail (1214)
 
@@ -102,8 +109,14 @@ physically separated from a shopping center (its own distinct parking
 lot, with property owned by the store or at least by a different agency
 than the owner of the shopping center).
 
-**Examples:** Target store on Randall Road
-![](1214_1.PNG "fig:1214_1.PNG") **Q&A:**
+**Examples:**
+
+Target store on Randall Road
+
+![](./img/1214_1.PNG)
+
+**Q&A:**
+
 
 ### Urban Mix (1215)
 
@@ -132,13 +145,16 @@ where the county has applied a Commercial code to the parcel. It also
 includes organizations providing services for animals such as animal
 shelters, doggy day care centers, and dog training clubs.
 
-**Examples:** **Example 1: Distinction between Commercial Vacant and
-Urban Mix** The photo below shows the buildings formerly used by the
-Rockenbach Chevy dealer. The new dealership is a now a few blocks away.
-This vacant property is in **move-in ready** condition so it should be
-coded **1215 Urban Mix**. See 4120 Vacant Commercial for more
-information about situations when this code would apply.
-<img src="1215_3.PNG" title="fig:1215_3.PNG" width="400" alt="1215_3.PNG" />
+**Examples:**
+
+-   **Example 1: Distinction between Commercial Vacant and
+    Urban Mix.** The photo below shows the buildings formerly used by the
+    Rockenbach Chevy dealer. The new dealership is a now a few blocks away.
+    This vacant property is in **move-in ready** condition so it should be
+    coded **1215 Urban Mix**. See 4120 Vacant Commercial for more
+    information about situations when this code would apply.
+
+    ![](./img/1215_3.PNG)
 
 **Q&A:**
 
@@ -149,6 +165,7 @@ information about situations when this code would apply.
     -   **A:** If the county codes this parcel as Commercial, then code
         the parcel for this house used solely as offices as **1215 urban
         mix**.
+
 -   *Q: How do I code a parcel containing a social service organization
     that is a ministry of a religious organization?*
     -   **A:** Since there is no house of worship on this parcel, this
@@ -157,9 +174,10 @@ information about situations when this code would apply.
         **institutional other 1370** for the specialized professional
         services provided. IF the county codes it as Commercial, then
         code it **1215 Urban Mix**.
--   ''Q: How do I coded property owned by a service organization such as
+
+-   *Q: How do I coded property owned by a service organization such as
     VFW, Moose, Elks, Masons, etc. which is defined as part of Other
-    Institutional, but the county codes it as Commercial property?
+    Institutional, but the county codes it as Commercial property?*
     -   **A:** Rather than taking a great deal of time to try to ferret
         out exactly how the property is being used, code this **1215
         Urban Mix** since the county codes it as Commercial even though
@@ -167,6 +185,7 @@ information about situations when this code would apply.
         if it was owned by a social service organization such as the
         YMCA. If the county codes it as Commercial, then code it urban
         mix unless you have overwhelming evidence otherwise.
+
 -   *Q: How do I code a preschool or day care center?*
     -   **A:** If it is owned by a school district or some other
         government entity or nonprofit AND the county use code is
@@ -181,9 +200,7 @@ information about situations when this code would apply.
         renting out the building or has this as a for-profit arm of the
         church so urban mix will be more the appropriatecode.
 
-<!-- -->
-
--   ''Q: The parcel in red in the photo below has a county usecode of
+-   *Q: The parcel in red in the photo below has a county usecode of
     517 (One Story Commercial Building) and it has been coded as Urban
     Mix as part of a thematic coding process. However, Google Maps
     street view and D&B indicate that this is a professional building
@@ -192,15 +209,15 @@ information about situations when this code would apply.
     517 county usecode and contain lawyer and insurance agencies. These
     buildings are on Milwaukee Ave in Niles. Should these parcels be
     left alone or coded as 1220 Offices since they are small
-    professional office buildings?
+    professional office buildings?*
     -   **A:** You can leave these buildings as **1215 Urban Mix**. See
         the discussion in **1220 Office** about **Offices in Older Urban
         Settings**. Niles is considered an "inner-ring suburb" so these
         offices would need to meet the higher office building standard
         in this suburb to be coded as 1220 Office.
 
-<img src="1220_7.PNG" title="fig:1220_7.PNG" width="250" alt="1220_7.PNG" />
-<img src="1220_8.PNG" title="fig:1220_8.PNG" width="300" alt="1220_8.PNG" />
+        ![](./img/1220_7.PNG)
+        ![](./img/1220_8.PNG)
 
 ### Urban Mix with Residential Component (1216)
 
@@ -230,8 +247,6 @@ are predominantly multi-family should be coded 1130 Multi-Family.
         a residential code will use residential unit numbers in final
         processing.
 
-<!-- -->
-
 -   *Q: The aerial photo below shows one building divided into 3
     parcels. Two of the parcels are coded Commercial by the county and
     one is coded Residential Condo. GoogleStreetView shows this
@@ -241,11 +256,12 @@ are predominantly multi-family should be coded 1130 Multi-Family.
     -   **A:** In this case, the street view photo shows us the actual
         land use activity so code all 3 parcels for this building as
         **1216**.
-        <img src="1216_1.PNG" title="fig:1216_1.PNG" width="400" alt="1216_1.PNG" />
-        <img src="1216_2.PNG" title="fig:1216_2.PNG" width="300" alt="1216_2.PNG" />
 
-Office (1220)
--------------
+        ![](./img/1216_1.PNG)
+        ![](./img/1216_2.PNG)
+
+
+## Office (1220)
 
 **Definition:** Office buildings, including: stand-alone office
 buildings as well as office complexes and corporate campuses. Includes
@@ -318,20 +334,31 @@ making things there?), and use visual cues (space for a lot of truck
 activity) to determine whether the property really functions as office
 or industrial.
 
-**Examples:** Two small office buildings, with banks (urban mix) on
+**Examples:**
+
+Two small office buildings, with banks (urban mix) on
 either side. D&B shows that most businesses in the offices are medical:
-![](1220_1.PNG "fig:1220_1.PNG") Same property, oblique view (north is
-at bottom): ![](1220_2.PNG "fig:1220_2.PNG") The example below is on an
-Industrial parcel, but is coded as office because:
+
+![](./img/1220_1.PNG)
+
+Same property, oblique view (north is at bottom):
+
+![](./img/1220_2.PNG)
+
+The example below is on an Industrial parcel, but is coded as office because:
 
 -   No evidence of manufacturing or warehousing,
 -   Large parking lot & multi-story buildings more consistant with
     office
 -   D&B lists Chase Bank at this location with 2,000 employees
 
-![](1220_3.PNG "fig:1220_3.PNG") Same property, oblique view:
-![](1220_4.PNG "fig:1220_4.PNG") Office in older urban setting in
-downtown Elgin:
+![](./img/1220_3.PNG)
+
+Same property, oblique view:
+
+![](./img/1220_4.PNG)
+
+Office in older urban setting in downtown Elgin:
 
 -   Tall building (long shadow),
 -   Classed as Commercial by the county,
@@ -339,8 +366,13 @@ downtown Elgin:
     NAICS 54: Professional, Scientific and Technical Services.
 -   Lower buildings to east and north are coded Urban Mix.
 
-![](1220_5.PNG "fig:1220_5.PNG") Same property, oblique view:
-![](1220_6.PNG "fig:1220_6.PNG") **Q&A:**
+![](./img/1220_5.PNG)
+
+Same property, oblique view:
+
+![](./img/1220_6.PNG)
+
+**Q&A:**
 
 -   *Q: How do I code a parcel owned by a utility or communications
     company that is an office building for this company?*
@@ -349,11 +381,13 @@ downtown Elgin:
         with utility or communications equipment on it, then this can be
         coded **1564 Other Utility/Waste** or **1550 Communications**
         depending on the company.
+
 -   *Q: How do I code a medical office building which is not near a
     hospital?*
     -   **A:** Code this as **1220 Office**. If such a building is
         adjacent to a hospital, then it can be coded with the hospital
         as medical.
+
 -   *Q: How does a publishing company get coded?*
     -   **A:** If the building actually has production of published
         materials going on and it is under 100,000 sq ft, then code it
@@ -366,7 +400,8 @@ downtown Elgin:
         to have many offices and no docks, then it’s probably an
         **office building** for the publishing company and no actual
         publishing is going on at that site.
--   ''Q: The parcel in red in the photo below has a county usecode of
+
+-   *Q: The parcel in red in the photo below has a county usecode of
     517 (One Story Commercial Building) and it has been coded as Urban
     Mix as part of a thematic coding process. However, Google Maps
     street view and D&B indicate that this is a professional building
@@ -375,15 +410,15 @@ downtown Elgin:
     517 county usecode and contain lawyer and insurance agencies. These
     buildings are on Milwaukee Ave in Niles. Should these parcels be
     left alone or coded as 1220 Offices since they are small
-    professional office buildings?
+    professional office buildings?*
     -   **A:** You can leave these buildings as **1215 Urban Mix**. See
         the discussion above about **Offices in Older Urban Settings**.
         Niles is considered an "inner-ring suburb" so these offices
         would need to meet the higher office building standard in this
         suburb to be coded as 1220 Office.
 
-<img src="1220_7.PNG" title="fig:1220_7.PNG" width="250" alt="1220_7.PNG" />
-<img src="1220_8.PNG" title="fig:1220_8.PNG" width="300" alt="1220_8.PNG" />
+        ![](./img/1220_7.PNG)
+        ![](./img/1220_8.PNG)
 
 -   *Q: How do I code the Abbott Laboratories Corporate Campus in Lake
     County that has the corporate world headquarters?*
@@ -395,6 +430,7 @@ downtown Elgin:
         If corporate offices were at a separate location for a
         manufacturing company, then it would be appropriate to code such
         an office building as 1220 Office.
+
 -   *Q: In Northbrook on the Allstate Corporate Campus are a couple of
     parcels that contain 2 baseball fields, a network of walking paths
     and a pond. Would this be considered Non-Public Open Space or
@@ -402,28 +438,34 @@ downtown Elgin:
     -   **A:** No, since this is part of the Allstate Corporate Campus,
         code it **1220 Office** as you do the rest of that corporate
         campus. This does meet the definition for **3400**.
--   *: How do I code a house that now is used as offices?*
+
+-   *Q: How do I code a house that now is used as offices?*
     -   **A:** Code this as urban mix even though it is currently being
         used as commercial offices. Since it was not constructed as a
         small office building, but rather is a house that has been
         converted to offices, it could just as easily be a flower shop
         or a yoga center instead of offices now, so code it urban mix.
 
-Cultural/Entertainment (1240)
------------------------------
 
-**Definition:** **Cultural activities:** museums, planetaria, aquaria,
-zoos, historic sites. **Public Assembly:** amphitheaters, drive-ins,
-stadiums, arenas, race tracks, exhibition halls, conference/convention
-centers. **Amusements:** fairgrounds, amusement parks, miniature golf,
-go-cart tracks. **Recreational activities:** tennis courts, ice rinks,
-bowling, swimming pools (all when not associated with a larger facility
-such as a hotel or park); recreation centers (stand-alone, not next to a
-field facility); land-based portion of yacht clubs, marinas, and
-riverboat casinos. **Not included in this category** are beaches,
-botanical gardens, arboretums, camping and picnicking, golf courses,
-riding stables, ski resorts, toboggan runs, playgrounds, or organized
-camps/retreats (see Open Space).
+## Cultural/Entertainment (1240)
+
+**Definition:**
+-   **Cultural activities:** museums, planetaria, aquaria,
+    zoos, historic sites.
+-   **Public Assembly:** amphitheaters, drive-ins,
+    stadiums, arenas, race tracks, exhibition halls, conference/convention
+    centers.
+-   **Amusements:** fairgrounds, amusement parks, miniature golf,
+    go-cart tracks.
+-   **Recreational activities:** tennis courts, ice rinks,
+    bowling, swimming pools (all when not associated with a larger facility
+    such as a hotel or park); recreation centers (stand-alone, not next to a
+    field facility); land-based portion of yacht clubs, marinas, and
+    riverboat casinos.
+-   ***Not included in this category*** are beaches,
+    botanical gardens, arboretums, camping and picnicking, golf courses,
+    riding stables, ski resorts, toboggan runs, playgrounds, or organized
+    camps/retreats (see Open Space).
 
 **Discussion:** The Definition section pretty much covers it. One
 clarification should be made for park district recreational centers. If
@@ -439,9 +481,12 @@ since from an activity standpoint, the hotel is 24/7 and the convention
 center is most active only when there's a convention going on. See a
 specific example of this in the Hotel/Motel Q&A below.
 
-**Examples:** The photo below shows a good example of a small marina for
+**Examples:**
+
+The photo below shows a good example of a small marina for
 recreational activities. This would be included in this code.
-<img src="1240_1.PNG" title="fig:1240_1.PNG" width="300" alt="1240_1.PNG" />
+
+![](./img/1240_1.PNG)
 
 **Q&A:**
 
@@ -449,18 +494,21 @@ recreational activities. This would be included in this code.
     a separate parcel?*
     -   **A:** Code this as you would any theater in a separate parcel
         as **1240 Cultural/Entertainment**.
--   ''Q: How do I code an AMC movie theater that is a part of Northbrook
+
+-   *Q: How do I code an AMC movie theater that is a part of Northbrook
     Court Mall? The theater and adjoining parking lot is in a separate
     parcel. That parcel has a different tax owner from those adjoining
-    parcels for the mall.
+    parcels for the mall.*
     -   **A:** Code this **1240 Cultural/Entertainment** since it is on
         its own distinct parcel.
+
 -   *Q: How do I code a parcel owned by a park district that only has a
     building on it that is a fitness center along with parking. There is
     no grass, park, tennis courts, etc. on this parcel.*
     -   **A:** Since there is only a building for indoor fitness
         activities and parking in this parcel and no "open space", code
         it **1240 Cultural/Entertainment**.
+
 -   *Q: I'm looking at a parcel in Yorkville that contains two buildings
     with a shared parking lot. The first (larger) building is a bowling
     alley, and the second (maybe 1/4 the size) houses a Subway and a
@@ -468,18 +516,16 @@ recreational activities. This would be included in this code.
     -   **A:** Since the parcel has a "mix" of uses, the safer course
         would be to code it **1215**.
 
-<!-- -->
-
--   ''Q: How do I code an equestrian center that is mostly used for
-    boarding horses, riding instruction, and competitions?
+-   *Q: How do I code an equestrian center that is mostly used for
+    boarding horses, riding instruction, and competitions?*
     -   **A:** Code this as **1240 Cultural Entertainment**. An
         equestrian center with riding instruction and competitions is
         usually more of a commercial enterprise and is not usually as
         low-impact as the activities described in 3400 Non-Public Open
         Space category.
 
-Hotel/Motel (1250)
-------------------
+
+## Hotel/Motel (1250)
 
 **Definition:** Includes associated parking and recreational facilities.
 
@@ -506,7 +552,9 @@ Bing Birds-Eye and Google Street View to verify.
 -   *Q: How do I decide if a parcel should be coded 1250 Hotel/Motel or
     1130 Multi-Family Residential? The photo below shows this building
     to have rooms for rent, weekly or monthly only.*
-    <img src="1250_1.PNG" title="fig:1250_1.PNG" width="350" alt="1250_1.PNG" />
+
+    ![](./img/1250_1.PNG)
+
     -   **A:** The main reference layer to use will be the Census data.
         Look at how many housing units are in that census block in the
         HU\_TOT field. If the only way to account for that number would
@@ -524,6 +572,7 @@ Bing Birds-Eye and Google Street View to verify.
         other reference layers which may code it as a hotel such as the
         Hotels/Motels reference layer and/or the 2005 Landuse to further
         substantiate your 1250 Hotel/Motel code.
+
 -   *Q: How do I code the parcel in the photo below? This is Schaumburg
     Convention Center which also has a large 15 story hotel as part of
     the facility all contained in the same parcel.*
@@ -534,7 +583,8 @@ Bing Birds-Eye and Google Street View to verify.
         convention center only when there's a convention going on.
         Because both are in the same parcel and because of the activity
         standpoint, code this as **1250 Hotel/Motel**.
-        <img src="1250_2.PNG" title="fig:1250_2.PNG" width="300" alt="1250_2.PNG" />
+
+        ![](./img/1250_2.PNG)
 
 -   *Q: The parcel highlighted in turquoise in the photo below is coded
     as residential by the county, but it appears to be something else.
@@ -557,8 +607,9 @@ Bing Birds-Eye and Google Street View to verify.
         explain the parking lot since the people attending the
         weddings/meetings need a place to park. So, I say to code it
         1250 Hotel/Motel.
-        <img src="1250_3.PNG" title="fig:1250_3.PNG" width="300" alt="1250_3.PNG" />
+
+        ![](./img/1250_3.PNG)
 
 ---
 
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
+*Return to [A field guide to Land Use Inventory classifications](./index.md)*

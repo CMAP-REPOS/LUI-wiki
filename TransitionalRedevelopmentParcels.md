@@ -37,4 +37,4 @@ Transitional indicator.
 
 ---
 
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
+*Return to [A field guide to Land Use Inventory classifications](./index.md)*

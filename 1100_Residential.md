@@ -3,6 +3,7 @@
 **Contents**
 * TOC
 {:toc}
+---
 Land in predominantly residential use, including surrounding land that
 is a part of a residential development. This category excludes housing
 on military bases as well as group quarters housing. Group quarters
@@ -637,19 +638,19 @@ Stormwater**.
 
 **Q&A:**
 
--   ''Q: How do I code parcels in a residential development that are
+-   *Q: How do I code parcels in a residential development that are
     owned by a HOA and that are much more concrete than green, although
     they could have some green areas? The parcels are not solely a road
     through the development which I know would be coded Roadway. It
     could be mostly parking for an apartment complex. It could be a
     small area for the mailboxes in a neighborhood. It could be a small
-    parcel for visitor parking in a townhome development.
+    parcel for visitor parking in a townhome development.*
     -   **A:** Go ahead and also code these areas 1151 Common Open
         Space. Make sure there is a "0" in the residential units field.
 
--   ''Q: How do I code a recreation building with tennis courts and/or
+-   *Q: How do I code a recreation building with tennis courts and/or
     outdoor pool that is in a separate parcel and owned by a homeowners
-    association?
+    association?*
     -   **A:** Since it is owned by a HOA, also code it 1151 Common Open
         Space. If it were owned by a municipality, then check on the
         internet to see if it is a designated park or recreaton center
@@ -679,12 +680,12 @@ Stormwater**.
         space then code it 3100 open space recreation. This applies to
         the trail system parcels owned by the park district as well.
 
--   Q:'' What about the common areas of a new development that appear to
+-   *Q: What about the common areas of a new development that appear to
     be finished such as retention ponds in place, bushes planted, etc.
-    but most of the residential lots do not have houses on them yet?''
+    but most of the residential lots do not have houses on them yet?*
     -   **A:** It's ok to code these common areas in a new development
         that are basically finished as **1151 Residential Common**.
 
 ---
 
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
+*Return to [A field guide to Land Use Inventory classifications](./index.md)*

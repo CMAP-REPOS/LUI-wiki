@@ -1,5 +1,9 @@
 # Coding Multiple Uses
 
+**Contents**
+* TOC
+{:toc}
+---
 The 2015 Inventory is our first attempt (since switching to a parcel
 base) at assigning multiple uses to parcels. The last two inventories
 had a MODIFIER flag that allowed for specific multiple-use combinations,
@@ -100,7 +104,7 @@ a land use change where one didn’t actually happen. Exception: if the
 2010/3 code is wrong, it should be changed (which also involves
 assigning an error point).
 
-    -   *Note*—for the church/school combos that were coded Educational with
+    -   *Note* -- for the church/school combos that were coded Educational with
         a “R” modifier, these can all be selected in a single query and have
         the 1350 (Religious Facilities) code pushed into the LANDUSE2 field.
 
@@ -138,7 +142,7 @@ since they don’t help characterize the activity of a parcel. These
 include:
 
 -   1565 - Stormwater Management
--    3500 - Trail or Greenway
+-   3500 - Trail or Greenway
 -   4110 - Vacant Residential Land
 -   4120 - Vacant Commercial Land
 -   4130 - Vacant Industrial Land
@@ -154,4 +158,4 @@ answered)
 
 ---
 
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
+*Return to [A field guide to Land Use Inventory classifications](./index.md)*
