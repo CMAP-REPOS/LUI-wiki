@@ -6,7 +6,6 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - README.md
   - CodingMultipleUses.md
   - TransitionalRedevelopmentParcels.md
   - 1100_Residential.md
