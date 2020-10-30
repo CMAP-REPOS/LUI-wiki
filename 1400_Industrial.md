@@ -4,8 +4,7 @@
 * TOC
 {:toc}
 ---
-Mineral Extraction (1410)
--------------------------
+## Mineral Extraction (1410)
 
 **Definition:** Includes coal mining; crude petroleum and natural gas
 mining; stone, sand, and clay quarrying. Includes active sites, as well
@@ -30,8 +29,8 @@ reclamation or re-use.
         parcel is covered by this activity (including pits, ponds and
         staging areas).
 
-General Industrial &lt; 100,000 s.f. RBA (1420)
------------------------------------------------
+
+## General Industrial &lt; 100,000 s.f. RBA (1420)
 
 **Definition:** Includes smaller-scale manufacturing and warehousing
 operations. Primary identification criteria is the categorization of
@@ -95,12 +94,14 @@ Industrial code.
         to have many offices and no docks, then it’s probably an office
         building for the publishing company and no actual publishing is
         going on at that site.
+
 -   *Q: How does a research & development company get coded?*
     -   **A:** If the building is less than 100k sq ft and the county
         has coded the property Industrial, then code this **1420**. If
         the building is greater than 100k sq ft and coded Industrial by
         the county, then follow the guidelines for that size of a
         building which will be to code it **1433**.
+
 -   *Q: How do I code the parcel pictured below? It is owned by
     University of Chicago and the county classifies it as Exempt. 2005
     Land Use coded it as Industrial General. It is located much farther
@@ -110,10 +111,9 @@ Industrial code.
         again in 2010. Even though it is Exempt by the county and is
         owned by University of Chicago, it is not a property where
         students and professors converge. They print books here.
-        <img src="1420_1.PNG" title="fig:1420_1.PNG" width="200" alt="1420_1.PNG" />
-        <img src="1420_2.PNG" title="fig:1420_2.PNG" width="200" alt="1420_2.PNG" />
 
-<!-- -->
+        ![](./img/1420_1.PNG)
+        ![](./img/1420_2.PNG)
 
 -   *Q: Below is an image of a privately owned small business that is a
     recyling and waste services company. The county use code is 517
@@ -126,10 +126,11 @@ Industrial code.
         General Industrial**. If you did determine that there was actual
         sorting/processing of recyclables happening on this property,
         then it could be coded **1564 Other Utility/Waste**.
-        <img src="1420_3.PNG" title="fig:1420_3.PNG" width="300" alt="1420_3.PNG" />
 
-*Industrial Properties Greater Than 100,000 s.f. RBA*
------------------------------------------------------
+        ![](./img/1420_3.PNG)
+
+
+## Industrial Properties Greater Than 100,000 s.f. RBA (1430 Series)
 
 This category includes industrial properties where total building size
 is 100,000 square feet or larger. Building size figures rely on Co-Star
@@ -172,6 +173,7 @@ involved in, but not necessarily the activity at the site. A company
 that is primarily involved in manufacturing might primarily or only have
 warehouse/distribution space at a particular location.
 
+
 ### Manufacturing/Processing (1431)
 
 **Definition:** Properties where the manufacturing of goods is the sole
@@ -196,14 +198,18 @@ on-site activity.
         parcels were adjacent to the large manufacturing complex, then
         it could be appropriate to include them in the manufacturing
         code, but in this case, they are not.
-        <img src="1431.PNG" title="fig:1431.PNG" width="400" alt="1431.PNG" />
+
+        ![](./img/1431.PNG)
+
 -   *Q: How do I code the large refinery in the photo below?*
     -   **A:** In this case, there is no large building to measure to
         meet the 100,000 sq ft rule. Measure the impervious area which
         contains tanks and refinery processing equipment. If that area
         is 10 acres or larger, then code it **1431 Manufacturing** since
         a refinery processes oil into other products.
-        <img src="1431_2.PNG" title="fig:1431_2.PNG" width="400" alt="1431_2.PNG" />
+
+        ![](./img/1431_2.PNG)
+
 
 ### Warehousing/Distribution (1432)
 
@@ -217,11 +223,16 @@ distribution of goods. Does not include commercial storage (see 1450).
 -   Not much car parking (these operations require relatively few
     employees.
 
-**Examples:** Exel North American Logistics, Inc. Note small parking lot
+**Examples:**
+
+Exel North American Logistics, Inc. Note small parking lot
 for employees relative to building size. Building is over 250,000 sq.
-ft. ![](1432_1.PNG "fig:1432_1.PNG")
+ft.
+
+![](./img/1432_1.PNG)
 
 **Q&A:**
+
 
 ### Flex or Indeterminate (1433)
 
@@ -238,13 +249,17 @@ industrial parks, you may find such a building that is currently vacant.
 These buildings are good examples of when to code a parcel as **1433
 Industrial Flex/Indeterminate**.
 
-**Examples:** **Large corporate campus** In the photo below is what in
+**Examples:**
+
+**Large corporate campus.** In the photo below is what in
 2010 was the large corporate campus for Cardinal Health (formerly
 Allegiance Healthcare). In several large parcels are a mix of office
 space and of manufacturing/shipping on the same property. Because of the
 size and the mix of "brains" (office) and "brawn"
 (manufacturing/shipping) in the same parcels, code this as **1433**.
-<img src="1433_1.PNG" title="fig:1433_1.PNG" width="300" alt="1433_1.PNG" />
+
+![](./img/1433_1.PNG)
+
 Another example of a large industrial complex which would be coded
 **1433** is Cinespace Chicago Film Studios on Chicago's near southwest
 side on the site of the former Ryerson Steel Company. While this studio
@@ -252,15 +267,19 @@ complex is in the entertainment industry, people don't actually go there
 to be entertained, rather movies and television shows are filmed there
 so code it **1433** because of campus size and variety of activities on
 properties.
-<img src="1433_3.PNG" title="fig:1433_3.PNG" width="250" alt="1433_3.PNG" />
-<img src="1433_4.PNG" title="fig:1433_4.PNG" width="450" alt="1433_4.PNG" />
+
+![](./img/1433_3.PNG)
+![](./img/1433_4.PNG)
+
 A third example of a large corporate campus, and which also includes the
 world headquarters, is Abbott Laboratories in Lake County. While the
 campus includes large office buildings for the world headquarters, it
 also has manufacturing and distribution on the campus, so code the
 entire campus **1433**.
-<img src="1433_5.PNG" title="fig:1433_5.PNG" width="350" alt="1433_5.PNG" />
-**Large indeterminate building** In the photo below is a building over
+
+![](./img/1433_5.PNG)
+
+**Large indeterminate building.** In the photo below is a building over
 100,000 sq ft owned by McKesson Corporation which internet research
 shows is involved in many different ventures. It is not clear what is
 going on at this particular location. The county has coded the property
@@ -269,7 +288,9 @@ is also a great deal of parking spaces which would suggest manufacturing
 and/or office space. Because the county codes it as industrial, the
 building is over 100k sq ft, and the activity is unclear, code such a
 parcel **1433**.
-<img src="1433_2.PNG" title="fig:1433_2.PNG" width="300" alt="1433_2.PNG" />
+
+![](./img/1433_2.PNG)
+
 **Q&A:**
 
 -   *Q: How do I code the building shown below. Lake County classifies
@@ -280,9 +301,8 @@ parcel **1433**.
     -   **A:** Even though the county codes this as Commercial, our code
         of **1433 Industrial Flex/Indeterminate** really is the most
         appropriate code for this parcel.
-        <img src="1433_6.PNG" title="fig:1433_6.PNG" width="300" alt="1433_6.PNG" />
 
-<!-- -->
+        ![](./img/1433_6.PNG)
 
 -   *Q: How do I code the building shown below? Will County classifies
     half of the building as Commercial and half as Industrial. The
@@ -299,12 +319,10 @@ parcel **1433**.
         laboratory, the building functions more as an industrial than an
         office commercial use.
 
-<figure>
-<img src="Silliker_FoodLab.jpg" title="Silliker_FoodLab.jpg" width="400" alt="Silliker_FoodLab.jpg" /><figcaption aria-hidden="true">Silliker_FoodLab.jpg</figcaption>
-</figure>
+        ![](./img/Silliker_FoodLab.jpg)
 
-Storage (1450)
---------------
+
+## Storage (1450)
 
 **Definition:** Long-term storage facilities including:
 commercial(public) storage, yacht/boat storage, and auto junkyards; in

@@ -4,8 +4,7 @@
 * TOC
 {:toc}
 ---
-*Transportation Right-of-Way (ROW)*
------------------------------------
+## Transportation Right-of-Way (ROW) (1510 Series)
 
 ### Rail ROW (1511)
 
@@ -21,10 +20,18 @@ parcels can be not only coincident with the railroad tracks but also
 running along side the tracks as additional right-of-way for the railway
 company.
 
-**Examples:** Big Timber station, Elgin. Track ROWs coded 1511; parking
+**Examples:**
+
+Big Timber station, Elgin. Track ROWs coded 1511; parking
 for Metra station code 1520 Other Linear Trans.
-![](1511_1.PNG "fig:1511_1.PNG") Rail ROW (1511) alongside Com Ed
-Utility ROW (1561) ![](1511_2.PNG "fig:1511_2.PNG") **Q&A:**
+
+![](./img/1511_1.PNG)
+
+Rail ROW (1511) alongside Com Ed Utility ROW (1561)
+
+!![](./img/1511_2.PNG)
+
+**Q&A:**
 
 -   *Q: In the photo below the red sliver parcel is old railroad tracks.
     How do I code this? There are many such parcels in some industrial
@@ -35,7 +42,9 @@ Utility ROW (1561) ![](1511_2.PNG "fig:1511_2.PNG") **Q&A:**
         still RIGHT-OF-WAY. If, however, the tracks are obviously not
         capable of being used AND they have the same owner as an
         adjacent parcel, then code them the same as that parcel.
-        <img src="1511_3.PNG" title="fig:1511_3.PNG" width="300" alt="1511_3.PNG" />
+
+        ![](./img/1511_3.PNG)
+
 
 ### Roadway (1512)
 
@@ -45,12 +54,16 @@ Utility ROW (1561) ![](1511_2.PNG "fig:1511_2.PNG") **Q&A:**
 of Chicago that cover not only part of the street but also the parkway
 and public sidewalk in front of residences. Below is a photo of this.
 These will also be coded **1512 Roadway**.
-<img src="1512_1.PNG" title="fig:1512_1.PNG" width="250" alt="1512_1.PNG" />
 
-**Examples:** Below is a photo of an alley behind commercial buildings
+![](./img/1512_1.PNG)
+
+**Examples:**
+
+Below is a photo of an alley behind commercial buildings
 which is a separate parcel and owned by the village. Code this as **1512
 Roadway**.
-<img src="1512_2.PNG" title="fig:1512_2.PNG" width="200" alt="1512_2.PNG" />
+
+![](./img/1512_2.PNG)
 
 **Q&A:**
 
@@ -58,6 +71,7 @@ Roadway**.
     parking for a downtown shopping area, but there is no actual parking
     in this parcel?*
     -   **A:** Code this as **1512 Roadway**.
+
 -   *Q: The parcels in the photo below are owned by a forest preserve
     district, but they also have Interstate roadway and/or ramps on
     them. How do I code these?*
@@ -73,7 +87,9 @@ Roadway**.
         protected land, instead go with the active land use since it is
         very significant too as a major transportation highway and
         interchange. Code it **1512 Roadway**.
-        <img src="1512_3.PNG" title="fig:1512_3.PNG" width="400" alt="1512_3.PNG" />
+
+        ![](./img/1512_3.PNG)
+
 
 ### Transportation ROW, Other or Mixed (1513)
 
@@ -85,8 +101,8 @@ Roadway**.
 
 **Q&A:**
 
-Other Linear Transportation with Associated Facilities (1520)
--------------------------------------------------------------
+
+## Other Linear Transportation with Associated Facilities (1520)
 
 **Definition:** Transportation-related activities separate from
 right-of-way parcels, including commuter rail stations and parking, as
@@ -104,14 +120,19 @@ Cultural/Entertainment). Intermodal facilities are coded separately as
 
 **Discussion:**
 
-**Examples:** **Highway maintenance facilities**: Such facilities might
+**Examples:**
+
+**Highway maintenance facilities.** Such facilities might
 house a small office but are primarily for road maintenance vehicles and
 salt storage as is depicted below. It should be coded **1520 (Other
 Linear Trans)**, regardless if it's owned by IDOT, a county highway
 department, or a municipality. On the other hand, if this type of
 facility shares a parcel with other municipal functions (i.e. village
 hall, police station, fire station), then code it **1330 Govt.**
-![](1520_1.PNG "fig:1520_1.PNG") **Freight or Trucking Terminal**:
+
+![](./img/1520_1.PNG)
+
+**Freight or Trucking Terminal.**
 Terminals used strictly for trucks to load/unload freight with no
 facilities for warehousing of goods and which are not a company
 distribution center can be identified by seeing that there are MANY
@@ -120,7 +141,9 @@ of time. If the parcel contains a warehouse or distribution center with
 large space for goods storage in addition to truck bays, then it would
 be coded either 1420 or 1432 depending on the size. Below is a photo of
 a freight/trucking terminal which would be coded **1520**.
-<img src="1520_5.PNG" title="fig:1520_5.PNG" width="300" alt="1520_5.PNG" />
+
+![](./img/1520_5.PNG)
+
 **Q&A:**
 
 -   *Q: Below is a photo of a school bus garage and parking on a parcel
@@ -132,9 +155,7 @@ a freight/trucking terminal which would be coded **1520**.
         Because of this, code it **1520 Other Linear Transportation**
         instead of an Education code.
 
-<figure>
-<img src="1520_2.PNG" title="1520_2.PNG" width="450" alt="1520_2.PNG" /><figcaption aria-hidden="true">1520_2.PNG</figcaption>
-</figure>
+        ![](./img/1520_2.PNG)
 
 -   *Q: On the Chicago River and other rivers in Chicago, I find small
     parcels next to bridges like the one outlined in blue-grey in the
@@ -148,8 +169,8 @@ a freight/trucking terminal which would be coded **1520**.
         parcels. Some are currently used during the day by bridge
         tenders but no one now lives in one.
 
-<img src="1520_3.PNG" title="fig:1520_3.PNG" width="300" alt="1520_3.PNG" />
-<img src="1520_4.PNG" title="fig:1520_4.PNG" width="200" alt="1520_4.PNG" />
+        ![](./img/1520_3.PNG)
+        ![](./img/1520_4.PNG)
 
 -   *Q: The photo below shows a large fiberglass manufacturing company
     with their manufacturing facility on W 59th St and then 2 additional
@@ -164,10 +185,11 @@ a freight/trucking terminal which would be coded **1520**.
         parcels were adjacent to the large manufacturing complex, then
         it could be appropriate to include them in the manufacturing
         code, but in this case, they are not.
-        <img src="1431.PNG" title="fig:1431.PNG" width="400" alt="1431.PNG" />
 
-Aircraft Transportation (1530)
-------------------------------
+        ![](./img/1431.PNG)
+
+
+## Aircraft Transportation (1530)
 
 **Definition:** Includes public and private-use airfields.
 
@@ -183,14 +205,15 @@ airport property should be coded as 1530.
     homeowners association?*
     -   **A:** Code the parcels that strictly have to do with aircraft
         transportation as 1530.
+
 -   *Q: How do I code VOR's and other facilities necessary for air
     transportation?*
     -   **A:** For 2010 Land Use, only code actual runway facilities
         as 1530. Code VOR's and Air Traffic Control Centers, for
         example, as Government.
 
-Independent Automobile Parking (1540)
--------------------------------------
+
+## Independent Automobile Parking (1540)
 
 **Definition:** Non-residential off-street parking with or without a
 multi-level structure. This includes municipal lots which would be
@@ -217,8 +240,8 @@ it is by reading signs at the parking lot entrances.
     in this parcel?*
 -   **A:** Code this as 1513 Roadway.
 
-Communication (1550)
---------------------
+
+## Communication (1550)
 
 **Definition:** This category includes telephone, telegraph, radio, and
 television including towers, dishes, microwave facilities, and other
@@ -243,11 +266,13 @@ communications tower, it is often better to use the internet to view the
 area at an oblique view to better see the actual tower. You often can
 also see the base and shadow of the tower in aerial photography if you
 look closely.
-<img src="1550_1.PNG" title="fig:1550_1.PNG" width="300" alt="1550_1.PNG" />
+
+![](./img/1550_1.PNG)
+
 **Q&A:**
 
-*Utilities and Waste Facilities*
---------------------------------
+
+## Utilities and Waste Facilities (1560 Series)
 
 ### Utility Right-of-Way (1561)
 
@@ -256,19 +281,25 @@ Commonwealth Edison/Exelon.
 
 **Discussion:**
 
-**Examples:** ![](1561_1.PNG "fig:1561_1.PNG") **Q&A:**
+**Examples:**
+
+![](./img/1561_1.PNG)
+
+**Q&A:**
 
 -   *Q: How about a Com Ed linear ROW that also has a large number of
     trucks from some other company parked on it? How do I code this?*
     -   **A:** The 1561 ROW code takes precedent unless there is an
         actual large building from some other organization on the ROW
         land.
+
 -   *Q: How about a situation in which a utility ROW also has a bicycle
     path on it? Which do I code, for the utility ROW or for the bike
     path?*
     -   **A:** The parcel owner sways how the parcel will be coded. In
         this situation, code **1561 Utility Right-of-Way** even though
         there is also a bike path on the parcel.
+
 -   *Q: The photo below shows a parcel owned by the gas company which
     also has a parking lot for adjoining commercial buildings on a good
     portion of the parcel. How do I code this?*
@@ -277,15 +308,14 @@ Commonwealth Edison/Exelon.
         unless there is an actual large building, not part of the
         utility owner, on a good portion of the parcel.
 
-<figure>
-<img src="1561_2.PNG" title="1561_2.PNG" width="400" alt="1561_2.PNG" /><figcaption aria-hidden="true">1561_2.PNG</figcaption>
-</figure>
+        ![](./img/1561_2.PNG)
 
 -   *Q: How do I code a ComEd substation?*
     -   **A:** If the parcel just covers the substation, code it **1564
         Other Utility/Waste**. If the parcel is a long right-of-way
         parcel that has the substation on a part of the parcel, code the
         parcel **1561 Utility Right-of-Way**.
+
 
 ### Wastewater Treatment Facility (1562)
 
@@ -311,8 +341,14 @@ water, it is not a treatment plant or facility so code such a green
 field with large circles **Other Utility/Waste 1564** instead of using
 this WWTP code.
 
-**Examples:** Wastewater treatment plant, Carpentersville.
-![](1562_1.PNG "fig:1562_1.PNG") **Q&A:**
+**Examples:**
+
+Wastewater treatment plant, Carpentersville.
+
+![](./img/1562_1.PNG)
+
+**Q&A:**
+
 
 ### Landfill (1563)
 
@@ -342,7 +378,9 @@ active use (i.e. golf course).
         which appear to be part of the famous Thomas J. O'Brien Lock &
         Dam, and which should be coded **1520 Other Linear
         Transportation**.
-        <img src="1563_1.PNG" title="fig:1563_1.PNG" width="400" alt="1563_1.PNG" />
+
+        ![](./img/1563_1.PNG)
+
 
 ### Other Utility/Waste (1564)
 
@@ -356,22 +394,23 @@ will be coded **1564** instead of the **1562** for a qualifying
 Wastewater Treament Facility using the EPA reference layer. Read the
 discussion above for code **1562** for more on this.
 
-**Examples:** **Example 1:** Besides the **WWTP 1562** discussion above,
+**Examples:**
+
+**Example 1:** Besides the **WWTP 1562** discussion above,
 another example of water treatment activity in which the water is being
 aerated in large ponds is in the photo below. This is developer-owned
 property so it would be coded **1564 Other Utility/Waste**.
 
-<figure>
-<img src="1564_1.PNG" title="1564_1.PNG" width="400" alt="1564_1.PNG" /><figcaption aria-hidden="true">1564_1.PNG</figcaption>
-</figure>
+![](./img/1564_1.PNG)
 
 **Example 2:** Below is an aerial photo and street view of a parcel
 owned by a bank in a residential area. On this parcel are some type of
 electrical boxes or electrical substations. Such a parcel would be coded
 **1564 Other Utility/Waste** because of the significant utility-related
 equipment on it.
-<img src="1564_3.PNG" title="fig:1564_3.PNG" width="200" alt="1564_3.PNG" />
-<img src="1564_4.PNG" title="fig:1564_4.PNG" width="300" alt="1564_4.PNG" />
+
+![](./img/1564_3.PNG)
+![](./img/1564_4.PNG)
 
 **Q&A:**
 
@@ -389,9 +428,7 @@ equipment on it.
         owned by a municipality which is probably a pumping station. It
         too would be coded **1564**.
 
-<figure>
-<img src="1564_2.PNG" title="1564_2.PNG" width="300" alt="1564_2.PNG" /><figcaption aria-hidden="true">1564_2.PNG</figcaption>
-</figure>
+        ![](./img/1564_2.PNG)
 
 -   *Q: I have often seen fairly small parcels usually owned by a
     municipality that contain what appears to be some sort of large
@@ -401,13 +438,12 @@ equipment on it.
         owns this parcel because of this equipment related to some sort
         of utility. Sometimes what you see using Google Street View is a
         large man-hole cover or something similar.
+
 -   *Q: How do I code a ComEd substation?*
     -   **A:** If the parcel just covers the substation, code it **1564
         Other Utility/Waste**. If the parcel is a long right-of-way
         parcel that has the substation on a part of the parcel, code the
         parcel **1561 Utility Right-of-Way**.
-
-<!-- -->
 
 -   *Q: Below is an image of a privately owned small business that is a
     recyling and waste services company. The county use code is 517
@@ -420,7 +456,9 @@ equipment on it.
         General Industrial**. If you did determine that there was actual
         sorting/processing of recyclables happening on this property,
         then it could be coded **1564 Other Utility/Waste**.
-        <img src="1420_3.PNG" title="fig:1420_3.PNG" width="300" alt="1420_3.PNG" />
+
+        ![](./img/1420_3.PNG)
+
 
 ### Stormwater Management (1565)
 
@@ -445,24 +483,34 @@ field. You can use your county's contour data (found at
 V:\\Environment\_and\_Natural\_Resources\\Topography), which will make
 detention basins more obvious. See the photo examples below.
 
-**Examples:** Retention basin at Spring Hill Mall. This will NOT code to
+**Examples:**
+
+Retention basin at Spring Hill Mall. This will NOT code to
 1565 because the parcel extends well into the developed area; instead it
 is coded with the remainder of the mall.
-![](1565_1.PNG "fig:1565_1.PNG") Portion of industrial park with
-contours turned on. **"A"** Retention basin: codes to 1565--primary
-function is stormwater management, and there is no development on the
-parcel. **"B"** Two basins, not necessarily permanent water but
-obviously functions as stormwater management, code 1565. **"C"**
-Detention basin: grassy area, with depression made visible through
-contours. Since the parcel extends into the developed area, though, it
-will code to the appropriate Industrial land use. If it were on its own
-parcel, it would code to 1565. ![](1565_2.PNG "fig:1565_2.PNG")
+
+![](./img/1565_1.PNG)
+
+Portion of industrial park with contours turned on.
+-   **"A"** Retention basin: codes to 1565--primary
+    function is stormwater management, and there is no development on the
+    parcel.
+-   **"B"** Two basins, not necessarily permanent water but
+    obviously functions as stormwater management, code 1565.
+-   **"C"**
+    Detention basin: grassy area, with depression made visible through
+    contours. Since the parcel extends into the developed area, though, it
+    will code to the appropriate Industrial land use. If it were on its own
+    parcel, it would code to 1565.
+
+![](./img/1565_2.PNG)
 
 **Example of when to code as Water:** In the photo below, a separate
 parcel only contains what appears to be the remnants of a natural
 stream. Because it is not an actual detention/retention basin structure,
 code this **Water 5000**.
-<img src="5000_1.PNG" title="fig:5000_1.PNG" width="150" alt="5000_1.PNG" />
+
+![](./img/5000_1.PNG)
 
 **Deciding between 1151 Residential Common or 1565 Stormwater
 Management** The retention pond and surrounding land in the photo below
@@ -474,7 +522,8 @@ side of this retention pond and does own one parcel on the north side of
 this pond so Open Space will only be a good code for that one very small
 parcel barely visible in this photo on the north side. All the other
 city-owned parcels should be coded **1565 Stormwater**.
-<img src="1565_3.PNG" title="fig:1565_3.PNG" width="400" alt="1565_3.PNG" />
+
+![](./img/1565_3.PNG)
 
 **Q&A:**
 
@@ -486,17 +535,15 @@ city-owned parcels should be coded **1565 Stormwater**.
     would be Stormwater, 1565 or should the dominant land area be used
     for the code so it would be Vacant Commercial?*
 
-<figure>
-<img src="4120_2.PNG" title="4120_2.PNG" width="200" alt="4120_2.PNG" /><figcaption aria-hidden="true">4120_2.PNG</figcaption>
-</figure>
+    ![](./img/4120_2.PNG)
 
--   -   **A:** In this case the code to use is **4120 Vacant
+    -   **A:** In this case the code to use is **4120 Vacant
         Commercial** even though the non-pond area is "passive", it has
         high potential to become an active use since it is situated in
         the middle of all commercial activity.
 
-Intermodal Facility (1570)
---------------------------
+
+## Intermodal Facility (1570)
 
 **Definition:** Sites involved in the transfer of freight between
 truck/rail/marine transport. Does not include single-company facilities

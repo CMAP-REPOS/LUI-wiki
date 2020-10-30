@@ -6,15 +6,17 @@
 ---
 **PLEASE NOTE:** The order presented below implies a sequence for
 selection. For example, a hospital within a public university would be
-coded \#1310 (Medical and Health Care Facilities). **Also note:** Code
+coded **1310** (Medical and Health Care Facilities).
+
+**Also note:** Code
 any detention or retention basin areas near institutional buildings with
 the same code as the nearby institutional building even if these parcels
 are owned by a different organization, such as a government entity.
 These institutional buildings could not have been built in that area if
 land had not also been set aside for water detention or retention.
 
-Medical Facilities (1310)
--------------------------
+
+## Medical Facilities (1310)
 
 **Definition:** Includes hospitals as well as nursing homes and other
 long-term care facilities.
@@ -43,7 +45,7 @@ little explanation.
 -   Medical office centers: basically, office buildings which are
     primarily or completely taken up with physicians' offices, etc. If
     they are not directly associated with and adjacent to a hospital,
-    these should be coded 1220: Office.
+    these should be coded **1220: Office**.
 -   Same day surgical centers, also called ambulatory surgical centers,
     provide same-day surgical care, including diagnostic and preventive
     procedures. In some cases you will find them in a building that is
@@ -53,24 +55,36 @@ little explanation.
     within different portions of the property, with independent living
     (considered multi-family) as well as nursing/long-term care
     facilities. See Q&A below for how to handle these properties.
--   Independent living facilities should be coded 1131: Multi-Family (No
-    Commercial Component)
+-   Independent living facilities should be coded **1130: Multi-Family**
+    (No Commercial Component)
 
 As to the question of where to draw the distinction between nursing
 homes and independent living (multi-family) structures (assuming it's
 not a "spectrum" development), the reference layers should give a good
 clue. If it appears in the Long Term Care reference layer, or if there
 is a population listed in the I\_NURS field of the Census Block layer,
-then it is most likely a nursing home. **Examples:** Sherman Hospital,
-Elgin. ![](1310_1.PNG "fig:1310_1.PNG") Nursing home in Elgin.
-Corroborated by the *Long Term Care* reference layer, and by the
-presense of a population in the census block living in nursing homes
-(I\_NURS &gt; 0). ![](1310_2.PNG "fig:1310_2.PNG") Holmstad Retirement
-Community, Batavia. Parcels don't neatly match the building layouts, but
+then it is most likely a nursing home.
+
+**Examples:**
+
+Sherman Hospital, Elgin.
+
+![](./img/1310_1.PNG)
+
+Nursing home in Elgin. Corroborated by the *Long Term Care* reference layer,
+and by the presense of a population in the census block living in nursing homes
+(`I_NURS > 0`).
+
+![](./img/1310_2.PNG)
+
+Holmstad Retirement Community, Batavia.
+Parcels don't neatly match the building layouts, but
 the development's website (found by Googling the name in the TAXNAME
-field) provided a map which identified the separate units. 1310
+field) provided a map which identified the separate units. **1310**
 properties include the main building, nursing home and assisted living
-structures. ![](1310_3.PNG "fig:1310_3.PNG")
+structures.
+
+![](./img/1310_3.PNG)
 
 **Q&A:**
 
@@ -87,8 +101,6 @@ structures. ![](1310_3.PNG "fig:1310_3.PNG")
         sure to change the residential units number to show how many
         single-family units are in that one parcel.
 
-<!-- -->
-
 -   *Q: How do I code the parcel shown in the photo below. It is a
     senior living community with a majority of townhouses. Dun &
     Bradstreet points show some residences have small home-based
@@ -103,10 +115,11 @@ structures. ![](1310_3.PNG "fig:1310_3.PNG")
         townhouses, the additional presence of the apartment building
         would mean **1131 Multi-Family Residential** would be the most
         appropriate code.
-        <img src="1131_6.PNG" title="fig:1131_6.PNG" width="400" alt="1131_6.PNG" />
 
-K-12 Educational Facilities (1321)
-----------------------------------
+        ![](./img/1131_6.PNG)
+
+
+## K-12 Educational Facilities (1321)
 
 **Definition:** Public and non-public schools as identified by the
 Illinois State Board of Education. Church/school combinations that share
@@ -125,6 +138,7 @@ particular combo.
 -   *Q: How do I code a parcel owned by a school district that I
     discover only has school administration offices?*
     -   **A:** This is coded as government, not educational.
+
 -   *Q: A parochial school and the associated church are in the same
     parcel. How do I code this?*
     -   **A:** Following the note at the top of this 1300 Institutional
@@ -145,6 +159,7 @@ particular combo.
         church which owns the parcel. With these situations, also code
         for the school and put an "R" in the MODIFIER field to show
         there is also a house of worship on this parcel.
+
 -   *Q: How do I code the parcel in the photo below that is owned by the
     Catholic Bishop of Chicago? This one parcel contains a church, a
     parochial school and also a 4-story commercial building containing a
@@ -155,9 +170,7 @@ particular combo.
         and code it **1321 K-12 Educational Facilities** with a modifier
         of 'R'.
 
-<figure>
-<img src="1321_1.PNG" title="1321_1.PNG" width="300" alt="1321_1.PNG" /><figcaption aria-hidden="true">1321_1.PNG</figcaption>
-</figure>
+        ![](./img/1321_1.PNG)
 
 -   *Q: How do I code a preschool or day care center?*
     -   **A:** If it is owned by a school district or some other
@@ -172,6 +185,7 @@ particular combo.
         even though it is owned by a church, likely the church is
         renting out the building or has this as a for-profit arm of the
         church so urban mix will be more the appropriate code.
+
 -   *Q: Below is a photo of a school bus garage and parking on a parcel
     that is owned by a school district. It is not adjacent to any
     school, but rather in an industrial area. How should I code this? Do
@@ -183,12 +197,10 @@ particular combo.
         Because of this, code it **1520 Other Linear Transportation**
         instead of an Education code.
 
-<figure>
-<img src="1520_2.PNG" title="1520_2.PNG" width="450" alt="1520_2.PNG" /><figcaption aria-hidden="true">1520_2.PNG</figcaption>
-</figure>
+        ![](./img/1520_2.PNG)
 
-Post-Secondary Educational Facilities (1322)
---------------------------------------------
+
+## Post-Secondary Educational Facilities (1322)
 
 **Definition:** Universities, colleges, community colleges; public, as
 well as for-profit and not-for-profit private schools. As identified by
@@ -199,8 +211,9 @@ where applicable.
 will be an important layer to use to identify these educational
 facilities. Some private colleges may be quite small. The enrollment
 number in that IBHE reference layer will be helpful to check. You can
-also look up the school on the [IBHE
-website](http://ibheprofiles.ibhe.org/). **Examples:**
+also look up the school on the [IBHE website](http://ibheprofiles.ibhe.org/).
+
+**Examples:**
 
 **Q&A:**
 
@@ -217,6 +230,7 @@ website](http://ibheprofiles.ibhe.org/). **Examples:**
         (college dorm) resident population, which would lend support to
         a code of **1322** for a dorm rather than **1131 Multi-family
         residential.**
+
 -   *Q: How do I code the parcel pictured below? It is owned by
     University of Chicago and the county classifies it as Exempt. 2005
     Land Use coded it as Industrial General. It is located much farther
@@ -226,11 +240,12 @@ website](http://ibheprofiles.ibhe.org/). **Examples:**
         again in 2010. Even though it is Exempt by the county and is
         owned by University of Chicago, it is not a property where
         students and professors converge. They print books here.
-        <img src="1420_1.PNG" title="fig:1420_1.PNG" width="200" alt="1420_1.PNG" />
-        <img src="1420_2.PNG" title="fig:1420_2.PNG" width="200" alt="1420_2.PNG" />
 
-Government Administration and Services (1330)
----------------------------------------------
+        ![](./img/1420_1.PNG)
+        ![](./img/1420_2.PNG)
+
+
+## Government Administration and Services (1330)
 
 **Definition:** Includes executive, legislative, and judicial functions;
 protective functions (police, fire, civil defense); postal services and
@@ -249,17 +264,20 @@ Naval Center and Illinois National Guard Centers.
 -   *Q: How do I code a parcel owned by a school district that I
     discover only has school administration offices?*
     -   **A:** This is coded as **1330 government**, not educational.
+
 -   *Q: How do I code a parcel owned by a park district that has a
     building with park district offices and/or maintenance facilities?
     No recreation areas or facilities are in this parcel.*
     -   **A:** Since no recreation is happening on this parcel and the
         owner is a government entity, code it **1330 Government
         Administration and Services**.
+
 -   *Q: How do I code a small parcel owned by a municipality that
     contains a civil defense siren mounted on a very tall pole?*
     -   **A:** Since this is owned by a municipality and not a
         communications company, code it **1330 Government Administraton
         and Services**.
+
 -   *Q: How do I code a parcel taken up by highway maintenance
     buildings, DOT trucks, and/or salt storage?*
     -   **A:** Code it coded **1520 (Other Linear Trans)**, regardless
@@ -267,15 +285,17 @@ Naval Center and Illinois National Guard Centers.
         municipality. On the other hand, if this type of facility shares
         a parcel with other municipal functions (i.e. fire station),
         then code it 1330 Govt.
--   ''Q: How do I code a parcel containing a building in which the US
+
+-   *Q: How do I code a parcel containing a building in which the US
     Post Office is located when the parcel is coded as commercial by the
-    county and is owned privately, not by the US Government?
+    county and is owned privately, not by the US Government?*
     -   **A:** If the building appears to ONLY contain the US Post
         Office and is not also being used by other tenants, then code it
         **1330 Government**. Sometimes we have found smaller post
         offices in buildings owned privately. However, if the building
         also contains other offices or tenants, then code it **1215
         Urban Mix**.
+
 -   *Q: How do I code a parcel that is owned by the State of Illinois
     that has 2 houses on it that appear to be occupied and used as
     homes, not offices for state employees. The county use code is
@@ -292,8 +312,8 @@ Naval Center and Illinois National Guard Centers.
         code it with the appropriate Residential code and change the
         Residential Units to the correct number.
 
-Prison and Correctional Facilities (1340)
------------------------------------------
+
+## Prison and Correctional Facilities (1340)
 
 **Definition:** Government establishments primarily engaged in managing
 and operating correctional institutions. The facility is generally
@@ -325,12 +345,10 @@ and/or juvenile offenders sentenced by a court.
         for the Census block reference data so it would be coded
         **1340**.
 
-<figure>
-<img src="1340_1.PNG" title="1340_1.PNG" width="300" alt="1340_1.PNG" /><figcaption aria-hidden="true"><code>1340_1.PNG</code></figcaption>
-</figure>
+        ![](./img/1340_1.PNG)
 
-Religious Facilities (1350)
----------------------------
+
+## Religious Facilities (1350)
 
 **Definition:** Houses of worship, along with associated structures and
 property.
@@ -356,7 +374,7 @@ Also, be sure to pay attention to the directions in the Q & A below for
 when a house of worship and a parochial school share the same parcel or
 are on adjacent parcels.
 
-**Be Aware: Not all church buildings are currently houses of worship**
+***Be Aware: Not all church buildings are currently houses of worship.***
 The photo below shows a church building. However, there are several
 pieces of information indicating this building is not currently used for
 worship. Look at the name of the owner of the parcel. How does the
@@ -366,8 +384,8 @@ it Commercial and a D&B point says it is a Masonic Lodge. With this
 information, the appropriate land use code would be **1215 Urban Mix**.
 <img src="1215_2.PNG" title="fig:1215_2.PNG" width="100" alt="1215_2.PNG" />
 
-**Be Aware: Not all current houses of worship have county tax exempt
-status** While most all active religious houses of worship will have
+***Be Aware: Not all current houses of worship have county tax exempt
+status*** While most all active religious houses of worship will have
 county tax exempt status, there are parcels containing currently active
 houses or worship which do not happen to have this county tax exempt
 status. If you have definitive evidence that a parcel or group of
@@ -383,6 +401,7 @@ even though the county code is not Exempt. **Examples:**
     -   **A:** Code this as residential if only the house is on the
         parcel, not the building in which the congregation meets.
         Remember to code the residential units as "1".
+
 -   *Q: A parochial school and the associated church are in the same
     parcel. How do I code this?*
     -   **A:** Following the note at this top of this 1300 Institutional
@@ -393,6 +412,7 @@ even though the county code is not Exempt. **Examples:**
         school (there is an enrollment field in the K-12 Schools
         reference layer); if a school on church propoerty reports zero
         enrollment, then code the property as **1350 (Religious)**.
+
 -   *Q: What do I do with a separate parcel that is a parking lot for a
     church or for a church and associated parochial school?*
     -   **A:** If there is only a church, then also code the parking lot
@@ -402,6 +422,7 @@ even though the county code is not Exempt. **Examples:**
         Modifier field. Do the same for the parcel that is a parking lot
         for the church and/or school, making sure to put an "R" in the
         Modifier field for this parcel too.
+
 -   *Q: How do I code a parcel containing a social service organization
     that is a ministry of a religious organization?*
     -   **A:** Since there is no house of worship on this parcel, this
@@ -410,6 +431,7 @@ even though the county code is not Exempt. **Examples:**
         Institutional Other** for the specialized professional services
         provided. IF the county codes it as Commercial, then code it
         **1215 Urban Mix**.
+
 -   *Q: How do I code a parcel that is identified as residential by the
     county and with 1 residential unit on it, but the aerial photo shows
     that the parcel has a small church and parking lot on it and also a
@@ -420,8 +442,8 @@ even though the county code is not Exempt. **Examples:**
         parcels coded as residential will contain a residential unit
         number in the final processing.
 
-Cemeteries (1360)
------------------
+
+## Cemeteries (1360)
 
 **Definition:** Includes associated chapels and mausoleums.
 
@@ -436,8 +458,8 @@ Cemeteries (1360)
     -   **A:** Code this also as cemetery. The land use and other
         factors are similar to cemeteries for people.
 
-Other Institutional (1370)
---------------------------
+
+## Other Institutional (1370)
 
 **Definition:** Includes: YMCA, Moose, Elks, VFW, and similar service
 organizations. It also includes the YMCA, YWCA, Salvation Army service
@@ -458,8 +480,10 @@ animals such as animal shelters or dog training clubs will be considered
 -   Also, see Discussion below about residences owned by non-profit
     social service organizations.
 
-**Discussion:** **Residence owned by non-profit social service
-organization** With some tax-exempt, non-profit social service
+**Discussion:**
+
+**Residence owned by non-profit social service organization.**
+With some tax-exempt, non-profit social service
 organizations which own residences, distinctions must be made. For
 example, a service center for Salvation Army would be coded as
 institutional other (1370), but a residence owned by Salvation Army for
@@ -484,8 +508,10 @@ property is coded Commercial by the county, then **1215 Urban Mix** will
 be the likely land use code, unless you happen to have strong evidence
 which would support a different code.
 
-**Examples:** **Unclear if parcel is residence owned by tax exempt
-organization** The photos below show a parcel that contains what could
+**Examples:**
+
+**Unclear if parcel is residence owned by tax exempt organization.**
+The photos below show a parcel that contains what could
 be a large, tax-exempt apartment building owned by Uhlich Children's
 Advantage Network, a non-profit social service agency with many programs
 and services. While the census count of 81 households for this census
@@ -495,8 +521,9 @@ to code it that with certainty. Because of we are not certain it is not
 used as offices or some other use by that non-profit organization, we
 will code it **1370 Institutional Other**. It is typically easier to
 code houses owned by tax exempt organizations as residential.
-<img src="1370_1.PNG" title="fig:1370_1.PNG" width="400" alt="1370_1.PNG" />
-<img src="1370_2.PNG" title="fig:1370_2.PNG" width="300" alt="1370_2.PNG" />
+
+![](./img/1370_1.PNG)
+![](./img/1370_2.PNG)
 
 **Q&A:**
 
@@ -507,19 +534,21 @@ code houses owned by tax exempt organizations as residential.
     worship services provided. Likewise, how do I code the Robert Crown
     Center for Health Education? This organization provides health
     education to children and parents.*
-    -   *' A:*' Since these two organization are both non-profit and
+    -   **A:** Since these two organization are both non-profit and
         provide such specific services, it is probably best to code each
         as **1370 Other Institutional** This will be true for other
         similar organizations especially if the county also codes the
         parcel as tax exempt.
+
 -   *Q: How do I code a parcel containing a social service organization
     that is a ministry of a religious organization?*
     -   **A:** Since there is no house of worship on this parcel, this
-        will **NOT** be coded **1350**. IF the county says it is tax
+        will **NOT** be coded **1350**. If the county says it is tax
         exempt, most likely it will qualify to be coded as
         **institutional other 1370** for the specialized professional
-        services provided. IF the county codes it as Commercial, then
+        services provided. If the county codes it as Commercial, then
         code it **1215 Urban Mix**.
+
 -   *Q: In the photo below are 2 parcels coded as residential by the
     county. This is Fox Valley Adult Transition Center which is a
     facility in which women are transitioned from prison life to regular
@@ -538,9 +567,8 @@ code houses owned by tax exempt organizations as residential.
         particular case, there is a large number in the I\_CORR field
         for the Census block reference data so it would be coded
         **1340**.
-        <img src="1340_1.PNG" title="fig:1340_1.PNG" width="300" alt="1340_1.PNG" />
 
-<!-- -->
+        ![](./img/1340_1.PNG)
 
 -   *Q: The photo below is a small portion of two large mostly wooded
     areas on both sides of W Francis Rd that make up one parcel owned by
@@ -558,10 +586,11 @@ code houses owned by tax exempt organizations as residential.
         Trinity Services which appears to be a school AND a long-term
         care facility. Because of this, let's use the code **1370 Other
         Institutional**.
-        <img src="1370_3.PNG" title="fig:1370_3.PNG" width="400" alt="1370_3.PNG" />
 
-National Laboratory (1380)
---------------------------
+        ![](./img/1370_3.PNG)
+
+
+## National Laboratory (1380)
 
 **Definition:** Special category for Argonne National Laboratory and
 Fermilab.
