@@ -1,3 +1,5 @@
+# A field guide to Land Use Inventory classifications
+
 This page serves as the springboard for classification guidelines for
 parcel-based Land Use Inventory work beginning in 2010. The guides that
 this page links to will serve as living documents that will be
