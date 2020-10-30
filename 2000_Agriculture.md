@@ -1,9 +1,5 @@
 # 2000: Agricultural Land
 
-**Table of Contents**
-* TOC
-{:toc}
----
 **Definition:** Land identified in county parcel data as agricultural,
 where the parcel is dominated by: row crops, field crops & fallow field
 farms & pasture, horse, dairy, livestock, and mixed, including dairy and
@@ -14,7 +10,9 @@ in those instances, the land is coded as Agriculture, with the planned
 land use (Residential, Commercial, Industrial, Other) identified in the
 PLATTED modifier.
 
-**Discussion:** While the previous inventories tried to split out the
+**Discussion:**
+
+While the previous inventories tried to split out the
 "farmhouses" from the surrounding agricultural land, in this version
 these properties are counted as Agricultural, but with (where
 applicable) a RES\_UNIT count of "1" applied to each parcel where,
@@ -52,40 +50,49 @@ Parcels on which there are **stables and pastures for horses** are often
 classified as agriculture or farm by counties. This does not mean we
 will necessarily code them as agriculture for land use. Below are the
 three usual situations encountered and the Land Use codes that will be
-used: 1. In rural residential areas, on land owned by the same homeowner
-you may find horse stables and fenced areas or pastures for horses for
-private use only. Code these with the appropriate the **Residential**
-code for the type of housing and residential units depending on whether
-the housing is on the same parcel or is on an adjoining parcel with the
-same owner.
+used:
 
-2\. If you encounter a parcel in which you find a riding center with
-stables, riding rings, riding exhibitions, trails, etc. where people
-ride horses as a private club or a public operation, code this
-**1240(Cultural/Entertainment)**.
-
-3\. If you determine that horse stables and/or pasture is a commercial
-operation for raising, sale, boarding and/or breeding of horses, rather
-than one of the two above cases, you may code this **2000 Agriculture**
-and if applicable, put a one in the RES\_UNIT field.
+1.  In rural residential areas, on land owned by the same homeowner
+    you may find horse stables and fenced areas or pastures for horses for
+    private use only. Code these with the appropriate the **Residential**
+    code for the type of housing and residential units depending on whether
+    the housing is on the same parcel or is on an adjoining parcel with the
+    same owner.
+2.  If you encounter a parcel in which you find a riding center with
+    stables, riding rings, riding exhibitions, trails, etc. where people
+    ride horses as a private club or a public operation, code this
+    **1240(Cultural/Entertainment)**.
+3.  If you determine that horse stables and/or pasture is a commercial
+    operation for raising, sale, boarding and/or breeding of horses, rather
+    than one of the two above cases, you may code this **2000 Agriculture**
+    and if applicable, put a one in the RES\_UNIT field.
 
 **Nurseries and greenhouses** are coded based on the type of business
 running the operation. See Examples 1 & 2 below.
 
-**Examples:** **Example 1: Nursery coded as Urban Mix (not Ag)** In this
+**Examples:**
+
+**Example 1: Nursery coded as Urban Mix (not Ag).** In this
 case, the nursery is a business called “Prestige Nursery Garden Center”,
 which according to the D&B listing is a “Landscape Architectural
 Service” (NAICS-6 code 541320) which is lumped into the NAICS-2 category
 54: Professional, Scientific and Technical Services. This is the kind of
 operation more consistent with an Urban Mix type of business. In this
 instance, the AG parcel would get coded Urban Mix.
-![](2000_1.PNG "fig:2000_1.PNG") **Example 2: Nursery coded as
-Agriculture** On the other hand, large-scale nursery/greenhouse
+
+![](./img/2000_1.PNG)
+
+**Example 2: Nursery coded as Agriculture.**
+On the other hand, large-scale nursery/greenhouse
 operations would be coded Agriculture; for the most part these will have
 NAICS-2 codes of “11” (Agriculture, Forestry, Fishing and Hunting).
 Example \#2 below is a parcel with a NAICS-6 of 111421: Nursery and Tree
-Production. ![](2000_2.PNG "fig:2000_2.PNG") **Example 3: Agriculture
-with a Platted Modifier** In some cases, the 2010 aerial may show a
+Production.
+
+![](./img/2000_2.PNG)
+
+**Example 3: Agriculture with a Platted Modifier.**
+In some cases, the 2010 aerial may show a
 parcel as 25% or more still as crop/meadow/orchard even though the
 parcel layer shows it as platted for a developed land use (Residential,
 Commercial, Industrial, Other). Example \#3 below is an area where the
@@ -98,7 +105,9 @@ an area that is currently agriculture or use the TaxName or other
 information to be confident in the type of future development that it
 will become. If you can find no information on intended use, then use
 Other for the Platted Modifier.
-<img src="2000_3.PNG" title="fig:2000_3.PNG" width="400" alt="2000_3.PNG" />
+
+![](./img/2000_3.PNG)
+
 The following is a different situation in which a Platted Modifier is
 appropriate to use. The parcel is owned by Elmhurst Cemetery Company and
 is Exempt by the county. Only a tiny part of the northern most part of
@@ -106,8 +115,10 @@ the parcel clips the actual cemetery. The rest is mostly cultivated farm
 field. Since the "active" land use by the cemetery is much too small,
 this will be coded **2000 Agriculture**, but since it is classed as
 Exempt by the county, we will add the Platted Modifier of "O" for Other.
-<img src="2000_4.PNG" title="fig:2000_4.PNG" width="300" alt="2000_4.PNG" />
-**Example 4: Rural Residential** Residential Land Use in a rural setting
+
+![](./img/2000_4.PNG)
+
+**Example 4: Rural Residential.** Residential Land Use in a rural setting
 may sometimes be classified as agriculture or farm by a county. *This
 does not mean that we will code such parcels as agriculture.* For Land
 Use coding, **2000 (Agriculture)** will be reserved for land with crops
@@ -130,28 +141,34 @@ there is no evidence of any commercial crop or grazing so this is coded
 **1111 (Single-Family Detached)** with one residential unit in the
 parcel containing the house and zero in the other two parcels, all of
 which have the same owner.
-<img src="1111_4.PNG" title="fig:1111_4.PNG" width="700" alt="1111_4.PNG" />
+
+![](./img/1111_4.PNG)
+
 In the second photo, the house is in one parcel and the private horse
 stables are in an adjoining parcel with the same owner. This also will
 be coded as **Residential**.
-<img src="1111_3.PNG" title="fig:1111_3.PNG" width="500" alt="1111_3.PNG" />
+
+![](./img/1111_3.PNG)
 
 **Q&A:**
 
 -   *Q: I'm looking at a parcel with LU pass 1 as AG. It's part of a
-    nursery....There are many nursery trees and bushes on this parcel
+    nursery... There are many nursery trees and bushes on this parcel
     along with a few buildings and bins of rock material. Do I code this
-    as Ag ..... or as Urban Mix as I did the other two parcels for this
+    as Ag ... or as Urban Mix as I did the other two parcels for this
     nursery which were LU pass 1 of COM?*
     -   **A:** These need to be handled on a case-by-case basis,
         depending on the type of operation. Refer to Examples 1 & 2
         above.
+
 -   *Q: How do I code horse stables owned by a forest preserve district;
     as agricultural or as open space, conservation?*
     -   **A:** Code these as **3300 Open Space, Conservation**.
+
 -   *Q: How do I code a parcel owned by a forest preserve district that
     appears to be a cultivated farm field?*
     -   **A:** Code this as **3300 Open Space, Conservation**.
+
 -   *Q: How do I code a parcel identified as AG by the county that has a
     farm house on it?*
     -   **A:** If the parcel identified by the county as agriculture
@@ -160,6 +177,7 @@ be coded as **Residential**.
         than that and agriculture is the appropriate code, then code it
         **2000 Agriculture**. In both cases, make sure that there is a
         "1" in the residential units field.
+
 -   *Q: How do I code a relatively small parcel identified by the county
     as AG which is next to a residential parcel with the same owner.
     There's a single family detached house on the residential parcel.
@@ -168,12 +186,14 @@ be coded as **Residential**.
     garden or anything else agricultural.*
     -   **A:** Code this as **1111 Single family detached** with "0" in
         the residential units field.
+
 -   *Q: How do I code a community garden where people can rent a plot
     and have a garden for themselves?*
     -   **A:** Code this **3100 Open Space, Recreation** and instead of
         Agriculture because people are doing this more as a "hobby" and
         not as their main livelihood as would more often be the case
         with the Agriculture code.
+
 -   *Q: Some of the parcels that were coded Ag through automation have a
     significant portion which is actually Mineral Extraction. Should
     they be left as Ag or changed?*
@@ -185,19 +205,22 @@ be coded as **Residential**.
         parcels, recode to Mineral Extraction if at least 25% of the
         parcel is covered by this activity (including pits, ponds and
         staging areas).
--   ''Q: How do I code an equestrian center that is mostly used for
-    boarding horses, riding instruction, and competitions?
+
+-   *Q: How do I code an equestrian center that is mostly used for
+    boarding horses, riding instruction, and competitions?*
     -   **A:** Code this as **1240 Cultural Entertainment**.
--   ''Q: A parcel coded as AG by the county has a house on it and
+
+-   *Q: A parcel coded as AG by the county has a house on it and
     buildings and fencing determined by internet searches to be for dog
     breeding. There is no DnB point indicating a business and no
     evidence of a commercial sign on the property using
     GoogleStreetView. Do I code this as Agriculture with 1 for the
-    residential units field?
+    residential units field?*
     -   **A:** Even though the county classed this as Ag, dog breeding
         really does not fit our Agriculture definition. Since there is
         also no evidence of a commercial business, code this as *' 1111
         Single-Family Detached*' with 1 res unit.
+
 -   *Q: How do I code a series of parcels owned by IDOT that appear to
     form what will be a future expressway? Some parcels appear to be
     vacant and others currently have crops on them.*
@@ -205,6 +228,7 @@ be coded as **Residential**.
         the ones with at least 25% agricultural activity as **2000
         Agriculture** and put a **O** in the PLATTED Modifier field for
         the Ag ones.
+        
 -   *Q: Governors State University owns several parcels that are being
     farmed. They have no agriculture-related program. How should these
     be coded?*

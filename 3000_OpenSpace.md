@@ -6,8 +6,10 @@
 ---
 **NOTE 1:** A large water body is coded the same as part of the
 surrounding open space unless it is a *huge* water body like Fox Lake
-and is a separate parcel. **NOTE 2:** Most frequently **3100 Open Space
-Recreation** will be owned by a municipality or a park district and
+and is a separate parcel.
+
+**NOTE 2:** Most frequently **3100 Open Space Recreation**
+will be owned by a municipality or a park district and
 **3300 Open Space Conservation** will be owned by a forest preserve
 district or the Illinois Department of Natural Resources (IDNR). One
 notable exception to this in the City of Chicago are small parcels
@@ -19,8 +21,8 @@ coded **3100** with a private owner except for those that are very
 obviously conservation-focused, such as along a waterway with no sign of
 a recreation function that would be coded **3300** with private owner.
 
-Open Space, Primarily Recreation (3100)
----------------------------------------
+
+## Open Space, Primarily Recreation (3100)
 
 **Definition:** Recreational open space with greater than 50% combined
 impervious surface and manicured turf. Botanical gardens such as Chicago
@@ -75,17 +77,20 @@ qualifies as 3100, 3300 or something else:
         default code based on owner. So such a facility owned by a
         forest preserve district would have the **3300** code and if
         owned by a park district, the **3100** code.
+
 -   *Q: How do I code a recreation building with tennis courts and/or
     outdoor pool that is in a separate parcel and owned by a homeowners
     association?*
     -   **A:** Since this is owned by an HOA, code it **1151 Common Open
         Space**.
+
 -   *Q: How do I code a parcel owned by a park district that only has a
     building on it that is a fitness center along with parking. There is
     no grass, park, tennis courts, etc. on this parcel.*
     -   **A:** Since there is only a building for indoor fitness
         activities and parking in this parcel and no "open space", code
         it **1240 Cultural/Entertainment**.
+
 -   *Q: I know that a forest preserve district owner typically means
     that a parcel will be coded 3300 Open Space Conservation, but what
     about a parcel with such an owner that ONLY has a baseball field on
@@ -97,23 +102,27 @@ qualifies as 3100, 3300 or something else:
         parcel ONLY has a definite recreational activity on it, you may
         code it 3100 Open Space Recreation. Be sure to also identify
         "county" in the OS\_MGMT field.
+
 -   *Q: How do I code a parcel owned by a park district that has a
     building with park district offices and/or maintenance facilities?
     No recreation areas or facilities are in this parcel.*
     -   **A:** Since no recreation is happening on this parcel and the
         owner is a government entity, code it **1330 Government
         Administration and Services**.
+
 -   *Q: How do I code a small parcel in a downtown area owned by a
     municipality that does not have turf, but instead has a fountain,
     sidewalks, benches, flowers/bushes and is intended for people to
     relax and enjoy that area?*
     -   **A:** Code this **3100 Open Space, Recreation**.
+
 -   *Q: How do I code a community garden where people can rent a plot
     and have a garden for themselves?*
     -   **A:** Code this **3100 Open Space Recreation** and instead of
         Agriculture because people are doing this more as a "hobby" and
         not as their main livelihood as would more often be the case
         with the Agriculture code.
+
 -   *Q: Where do we draw the line between Common Open Space in a
     Residential Development (1151) and Open Space, Primarily Recreation
     (3100)? Grande Park is a massive residential development surrounding
@@ -129,11 +138,13 @@ qualifies as 3100, 3300 or something else:
         district and looks like it could be used for recreation as open
         space then code it **3100 Open Opace Recreation**. This applies
         to the trail system parcels owned by the park district as well.
+
 -   *Q: How do I code parcels owned by Chicago Park District that are
     currently wooded? Information from the park district is that there
     is a park planned here but not yet built.*
     -   **A:** Since there is no park here yet, code this **4140 Vacant
         Other**.
+
 -   *Q: The photo below is a small portion of two large mostly wooded
     areas on both sides of W Francis Rd that make up one parcel owned by
     the Joliet Park District. On the land to the south of the road are
@@ -150,10 +161,11 @@ qualifies as 3100, 3300 or something else:
         Trinity Services which appears to be a school AND a long-term
         care facility. Because of this, let's use the code **1370 Other
         Institutional**.
-        <img src="1370_3.PNG" title="fig:1370_3.PNG" width="400" alt="1370_3.PNG" />
 
-Golf Course (3200)
-------------------
+        ![](./img/1370_3.PNG)
+
+
+## Golf Course (3200)
 
 **Definition:** Public golf courses, country clubs and driving ranges;
 including associated buildings and parking. Includes code for management
@@ -172,8 +184,8 @@ agency type.
         landuse in the future, we are putting more emphasis than before
         on owner.
 
-Open Space, Primarily Conservation (3300)
------------------------------------------
+
+## Open Space, Primarily Conservation (3300)
 
 **Definition:** Open space in a natural state (less than 50% combined
 impervious surface/manicured turf); includes public land (federal and
@@ -186,7 +198,7 @@ type.
 
 **Discussion:** See the Discussion section under **3100 Open Space,
 Recreation** regarding "natural-state" properties owned by
-municipalities and local park districts
+municipalities and local park districts.
 
 Sometimes parts of a forest preserve will have parking lots, picnic
 areas, trails for hiking, biking and/or cross country skiing, and even a
@@ -194,13 +206,19 @@ small marina if it is on a large lake or river. Even though these could
 be considered recreational activities, continue to code these parcels as
 **3300** because they are owned by a forest preserve district. A parcel
 owned by the forest preserve district with ONLY a ball field on it, for
-example, could be coded as **3100**. **Examples:** **Forest Preserve may
-have trails on them** Below is Hadley Valley Preserve in Will County.
+example, could be coded as **3100**.
+
+**Examples:**
+
+**Forest Preserve may have trails on them.** Below is Hadley Valley
+Preserve in Will County.
 Even though this forest preserve does have a trail circling it, code it
 **3300** because it is owned by a forest preserve district and is a
 large natural area that may include forest, wetlands, and/or prairie.
 Save the Trail code for true linear parcels that contain a trail.
-<img src="3300_2.PNG" title="fig:3300_2.PNG" width="400" alt="3300_2.PNG" />
+
+![](./img/3300_2.PNG)
+
 **Q&A:**
 
 -   *Q: How do I code horse stables or what may be called an equestrian
@@ -210,9 +228,11 @@ Save the Trail code for true linear parcels that contain a trail.
         default code based on owner. So such a facility owned by a
         forest preserve district would have the **3300** code and if
         owned by a park district, the **3100** code.
+
 -   *Q: How do I code a parcel owned by a forest preserve district or
     the IDNR that appears to be a cultivated farm field?*
     -   **A:** Code this as **3300 Open space, conservation**.
+
 -   *Q: I have found a few parcels that are owned by a park district or
     municipality and from all that I've been able to see on the aerial
     and learn about this area from the Internet, it is solely
@@ -227,6 +247,7 @@ Save the Trail code for true linear parcels that contain a trail.
         strong evidence that this is the case, then you may code the
         parcel as 3300 Open Space Conservation. Be sure to fill in the
         OS\_MGMT field.
+
 -   *Q: I have found several parcels owned by a municipality that appear
     to be wetlands and a stream corridor near and between housing
     developments. How do I code these parcels?*
@@ -243,6 +264,7 @@ Save the Trail code for true linear parcels that contain a trail.
         open space recreation and/or conservation is solely a department
         within the municipality rather than a separate park district,
         then you could build a case for coding it 3300.
+
 -   *Q: I have found a parcel in DuPage with a house on it and a person
     as owner. The county use code is open space. There are adjoining
     parcels with the same owner and zero land use value and no
@@ -255,6 +277,7 @@ Save the Trail code for true linear parcels that contain a trail.
         Residential, Single Family with one detached house on it. Code
         the other parcels as 3300 Conservation Open Space with a private
         owner.
+
 -   *Q: The photo below is of Events at Independence Grove, owned by
     Lake County Forest Preserve District. The parcels include venues
     which can be rented for special events and weddings, a cafe, beach,
@@ -267,9 +290,8 @@ Save the Trail code for true linear parcels that contain a trail.
         forest preserve district owned land intact under **3300** unless
         there is a compelling reason to assign a different code. In this
         case, there is not so code it **3300**.
-        <img src="3300_1.PNG" title="fig:3300_1.PNG" width="350" alt="3300_1.PNG" />
 
-<!-- -->
+        ![](./img/3300_1.PNG)
 
 -   *Q: The Calumet Memorial Park District in Calumet City and the Cook
     County Forest Preserve District own an intermingled set of parcels
@@ -286,11 +308,12 @@ Save the Trail code for true linear parcels that contain a trail.
         owned by the FPD would get a CNTY owner type and those owned by
         the park district would get a MUNI owner type. Any other
         parcels, not owned by either, could be coded vacant.
-        <img src="3300_3.PNG" title="fig:3300_3.PNG" width="300" alt="3300_3.PNG" />
-        <img src="3300_4.PNG" title="fig:3300_4.PNG" width="275" alt="3300_4.PNG" />
 
-Non-Public Open Space (3400)
-----------------------------
+        ![](./img/3300_3.PNG)
+        ![](./img/3300_4.PNG)
+
+
+## Non-Public Open Space (3400)
 
 **Definition:** Generally, this category is reserved for those
 activities which are considered “low-impact” outdoor recreation
@@ -319,8 +342,8 @@ of places that can fall in this category include:
         code it **1220 Office** as you do the rest of that corporate
         campus. This does meet the definition for **3400**.
 
-Trail or Greenway (3500)
-------------------------
+
+## Trail or Greenway (3500)
 
 **Definition:** Right-of-way maintained for the purposes of recreational
 activities. Do not include code for management agency type.
@@ -343,6 +366,7 @@ photo above under **3300**.
     -   **A:** The parcel owner sways how the parcel will be coded. In
         this situation, code **1561 Utility Right-of-Way** even though
         there is also a bike path on the parcel.
+
 -   *Q: Below is a photo of parking owned by City of Joliet. The only
     other city-owned parcels nearby are for Old Plank Road Trail. It
     appears this is parking for those you want to use the trail. May I
@@ -351,4 +375,6 @@ photo above under **3300**.
         sole function is to provide parking for people who want to make
         use of the trail and need to drive to access it. Also code it
         **3500 Trail or
-        Greenway**.<img src="3500_1.PNG" title="fig:3500_1.PNG" width="150" alt="3500_1.PNG" />
+        Greenway**.
+
+        ![](./img/3500_1.PNG)
