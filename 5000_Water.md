@@ -1,4 +1,4 @@
-# Water (5000)
+# 5000: Water
 
 **Definition:** Parcel is predominantly water.
 
@@ -20,12 +20,12 @@ Water**.
 
 **Examples:**
 
--   **Example 1:** In the photo below, a separate parcel only
-    contains what appears to be the remnants of a natural stream. Because it
-    is not an actual detention/retention basin structure, code this **Water
-    5000**.
+In the photo below, a separate parcel only
+contains what appears to be the remnants of a natural stream. Because it
+is not an actual detention/retention basin structure, code this **Water
+5000**.
 
-    ![](./img/5000_1.PNG)
+![](./img/5000_1.PNG)
 
 **Q&A:**
 

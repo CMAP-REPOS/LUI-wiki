@@ -1,5 +1,9 @@
-# Open Space (3000 series)
+# 3000 Series: Open Space
 
+**Table of Contents**
+* TOC
+{:toc}
+---
 **NOTE 1:** A large water body is coded the same as part of the
 surrounding open space unless it is a *huge* water body like Fox Lake
 and is a separate parcel. **NOTE 2:** Most frequently **3100 Open Space
@@ -348,7 +352,3 @@ photo above under **3300**.
         use of the trail and need to drive to access it. Also code it
         **3500 Trail or
         Greenway**.<img src="3500_1.PNG" title="fig:3500_1.PNG" width="150" alt="3500_1.PNG" />
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*

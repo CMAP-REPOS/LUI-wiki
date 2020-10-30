@@ -1,5 +1,9 @@
-# Institutional Land Uses (1300 series)
+# 1300 Series: Institutional Land Uses
 
+**Table of Contents**
+* TOC
+{:toc}
+---
 **PLEASE NOTE:** The order presented below implies a sequence for
 selection. For example, a hospital within a public university would be
 coded \#1310 (Medical and Health Care Facilities). **Also note:** Code
@@ -568,7 +572,3 @@ DuPage and Kane Counties.
 **Examples:**
 
 **Q&A:**
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*

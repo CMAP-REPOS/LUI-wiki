@@ -34,7 +34,3 @@ COMMENT field for that parcel—write a simple description such as
 “mixed-use, construction begins August 2017” as well as a check-box to
 have the tool write a “T” in the MODIFIER field which will serve as the
 Transitional indicator.
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./index.md)*

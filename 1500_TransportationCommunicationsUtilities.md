@@ -1,5 +1,9 @@
-# Transportation/Communication/Utilities (TCU) Land Uses (1500 series)
+# 1500 Series: Transportation/Communication/Utilities (TCU) Land Uses
 
+**Table of Contents**
+* TOC
+{:toc}
+---
 *Transportation Right-of-Way (ROW)*
 -----------------------------------
 
@@ -503,7 +507,3 @@ truck/rail/marine transport. Does not include single-company facilities
 **Examples:**
 
 **Q&A:**
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*

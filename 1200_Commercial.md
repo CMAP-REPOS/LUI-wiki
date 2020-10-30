@@ -1,6 +1,6 @@
-# Commercial Land Uses (1200 series)
+# 1200 Series: Commercial Land Uses
 
-**Contents**
+**Table of Contents**
 * TOC
 {:toc}
 ---
@@ -609,7 +609,3 @@ Bing Birds-Eye and Google Street View to verify.
         1250 Hotel/Motel.
 
         ![](./img/1250_3.PNG)
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./index.md)*

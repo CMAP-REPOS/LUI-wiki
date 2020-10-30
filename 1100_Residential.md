@@ -1,6 +1,6 @@
-# Residential Land Uses (1100 series)
+# 1100 Series: Residential Land Uses
 
-**Contents**
+**Table of Contents**
 * TOC
 {:toc}
 ---
@@ -685,7 +685,3 @@ Stormwater**.
     but most of the residential lots do not have houses on them yet?*
     -   **A:** It's ok to code these common areas in a new development
         that are basically finished as **1151 Residential Common**.
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./index.md)*

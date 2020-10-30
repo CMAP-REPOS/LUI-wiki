@@ -1,8 +1,9 @@
-# Agricultural Land (2000 series)
+# 2000: Agricultural Land
 
-Agricultural Land (2000)
-------------------------
-
+**Table of Contents**
+* TOC
+{:toc}
+---
 **Definition:** Land identified in county parcel data as agricultural,
 where the parcel is dominated by: row crops, field crops & fallow field
 farms & pasture, horse, dairy, livestock, and mixed, including dairy and
@@ -211,7 +212,3 @@ be coded as **Residential**.
         Agricultural**. If only a portion of the university-owned parcel
         is being farmed, then code it **1322 Post Secondary Educational
         Institution**.
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*

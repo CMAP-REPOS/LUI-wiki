@@ -1,5 +1,9 @@
-# Industrial Land Uses (1400 series)
+# 1400 Series: Industrial Land Uses
 
+**Table of Contents**
+* TOC
+{:toc}
+---
 Mineral Extraction (1410)
 -------------------------
 
@@ -329,7 +333,3 @@ these as **Storage 1450**.
     -   **A:** Code this as **Storage 1450**. This would be considered
         public storage even though the customer storing the property is
         a small business.
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*

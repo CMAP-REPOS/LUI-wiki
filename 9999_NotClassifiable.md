@@ -1,10 +1,12 @@
-# Not Classifiable (9999)
+# 9999: Not Classifiable
 
 **Definition:** Sliver or isolated parcel with no identifiable use.
 
 **Discussion:**
 
-**Examples:** If a parcel ONLY includes a breakwall on Lake Michigan and
+**Examples:**
+
+If a parcel ONLY includes a breakwall on Lake Michigan and
 nothing else, then code it **9999**.
 
 Another example of uncodeable parcels are those below that contain a
@@ -40,7 +42,3 @@ Therefore, we will consider it **9999 Not Classifiable**.
         is much smaller than the river portion. Let's use **9999**.
 
         ![](./img/9999_2.PNG)
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./index.md)*

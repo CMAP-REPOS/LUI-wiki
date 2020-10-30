@@ -1,6 +1,6 @@
 # Coding Multiple Uses
 
-**Contents**
+**Table of Contents**
 * TOC
 {:toc}
 ---
@@ -155,7 +155,3 @@ include:
 
 This section will get updated whenever a multi-use question is asked (&
 answered)
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./index.md)*

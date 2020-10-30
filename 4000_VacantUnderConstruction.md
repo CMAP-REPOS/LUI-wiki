@@ -1,7 +1,10 @@
-# Vacant or Under Construction (4000 series)
+# 4000 Series: Vacant or Under Construction
 
-*Vacant/Undeveloped Land (4100 Series)*
----------------------------------------
+**Table of Contents**
+* TOC
+{:toc}
+---
+## Vacant/Undeveloped Land (4100 Series)
 
 **Definition:** Land in an undeveloped state, with no agricultural
 activities nor protection as open space. When land is identified in
@@ -26,6 +29,7 @@ still intact, and despite many vacant spaces, still code it for the
 intended use, unless the guidelines in the statement above apply such as
 NO roof, vacant for decades, and you have evidence it was torn down
 shortly after 2010, so it would be coded vacant.
+
 
 ### Vacant Residential Land (4110)
 
@@ -54,6 +58,7 @@ subdivisions where general construction activities have been completed
         containers, old cars or boats, etc. on it and there is no
         evidence of any commercial or industrial activity such as a Dun
         & Bradstreet point for a business.
+
 -   *Q: There are several parcels in residential areas in Markham that
     have nothing on them. The Taxname is "Moss Sewer Water". The
     Contours layer shows that these are NOT retention/detention basins.
@@ -68,6 +73,7 @@ subdivisions where general construction activities have been completed
         reflect reality so a common owner for an adjacent residential
         parcel may have been the case in the past, but no longer true.
 
+
 ### Vacant Commercial Land (4120)
 
 **Definition:** Undeveloped land classified as “Commercial” by county
@@ -81,24 +87,25 @@ standing was vacant in spring of 2010 and **there is no hope of
 rehabilitation for the same use,** then code the parcels as Vacant
 Commercial.
 
-**Examples:** **Example 1: Former Fairgrounds** The former fairgrounds
-in Grayslake in the photo below is an example of **there is no hope of
-rehabilitation for the same use** since Internet research reveals a new
-location for the current Lake County Fair and our NDD reference layer
-shows a proposed 800,000 sq ft retail operation planned for the site.
-**4120 Vacant Commercial** is appropriate for these parcels since the
-county classes the them as Commercial.
+**Examples:**
 
-<figure>
-<img src="4120_1.PNG" title="4120_1.PNG" width="400" alt="4120_1.PNG" /><figcaption aria-hidden="true">4120_1.PNG</figcaption>
-</figure>
+-   **Example 1: Former Fairgrounds.** The former fairgrounds
+    in Grayslake in the photo below is an example of **there is no hope of
+    rehabilitation for the same use** since Internet research reveals a new
+    location for the current Lake County Fair and our NDD reference layer
+    shows a proposed 800,000 sq ft retail operation planned for the site.
+    **4120 Vacant Commercial** is appropriate for these parcels since the
+    county classes the them as Commercial.
 
-**Example 2: Former Rockenbach Chevrolet Dealership buildings** The
-photo below shows the buildings formerly used by the Rockenbach Chevy
-dealer. The new dealership is a now a few blocks away. This vacant
-property is in **move-in ready** condition so it should be coded **1215
-Urban Mix**.
-<img src="1215_3.PNG" title="fig:1215_3.PNG" width="400" alt="1215_3.PNG" />
+    ![](./img/4120_1.PNG)
+
+-   **Example 2: Former Rockenbach Chevrolet Dealership buildings.** The
+    photo below shows the buildings formerly used by the Rockenbach Chevy
+    dealer. The new dealership is a now a few blocks away. This vacant
+    property is in **move-in ready** condition so it should be coded **1215
+    Urban Mix**.
+
+    ![](./img/1215_3.PNG)
 
 **Q&A:**
 
@@ -111,6 +118,7 @@ Urban Mix**.
         code them with that functional code. So a vacant store building
         would be coded with one of the retail codes and a vacant theater
         with the 1240 code.
+
 -   *Q: I encounter many situations in which one parcel identified as
     commercial by the county has a particular owner and a building on
     it. Then another parcel next to this parcel and with the same owner,
@@ -123,6 +131,7 @@ Urban Mix**.
         that no real business activity could occur on it, then code it
         the same as the first parcel as though it was part of that
         business land use.
+
 -   *Q: How do I code the parcel in the photo below. It is coded as
     Vacant Land by the county. The tax owner does not match any of the
     adjacent parcels. About 30% of the parcel's active use is the
@@ -131,14 +140,13 @@ Urban Mix**.
     would be Stormwater, 1565 or should the dominant land area be used
     for the code so it would be Vacant Commercial?*
 
-<figure>
-<img src="4120_2.PNG" title="4120_2.PNG" width="300" alt="4120_2.PNG" /><figcaption aria-hidden="true">4120_2.PNG</figcaption>
-</figure>
+    ![](./img/4120_2.PNG)
 
--   -   **A:** In this case the code to use is **4120 Vacant
+    -   **A:** In this case the code to use is **4120 Vacant
         Commercial** even though the non-pond area is "passive", it has
         high potential to become an active use since it is situated in
         the middle of all commercial activity.
+
 
 ### Vacant Industrial Land (4130)
 
@@ -158,6 +166,7 @@ to be able to be re-used, then code as the original industrial land use.
 
 **Q&A:**
 
+
 ### Other Vacant (4140)
 
 **Definition:** Undeveloped land classified as "Vacant" or “Agriculture”
@@ -173,12 +182,16 @@ the Assessor as "vacant," but is in the middle of a lake, it should be
 coded Water (5000). If there is evidence of ag activities taking part on
 more than 25% of the parcel, it should be coded Agriculture (2000).
 
-**Examples:** The parcels outlined in red are **probably** subdivided as
+**Examples:**
+
+The parcels outlined in red are **probably** subdivided as
 part of an industrial development, as evidenced by the Manufacturing
 parcel in the middle of it. However, the Kane Assessor has these
 properties listed as "Vacant," and not "Industrial." Although your gut
 tells you to code this as Vacant Industrial, stick with the guidelines
-and code this 4140 Other Vacant. ![](4140_1.PNG "fig:4140_1.PNG")
+and code this 4140 Other Vacant.
+
+![](./img/4140_1.PNG)
 
 **Q&A:**
 
@@ -194,8 +207,6 @@ and code this 4140 Other Vacant. ![](4140_1.PNG "fig:4140_1.PNG")
         layers to determine that these parcels, though coded as vacant,
         do not have development potential.
 
-<!-- -->
-
 -   *Q: How do I code a series of parcels owned by IDOT that appear to
     form what will be a future expressway? Some parcels appear to be
     vacant and others currently have crops on them.*
@@ -203,8 +214,6 @@ and code this 4140 Other Vacant. ![](4140_1.PNG "fig:4140_1.PNG")
         the ones with at least 25% agricultural activity as **2000
         Agriculture** and put a **O** for **Other** in the Platted
         Modifier field for the Ag ones.
-
-<!-- -->
 
 -   *Q: How do I code a parcel that in 2010 is being used for nearby
     road construction materials and equipment? The county code is VACANT
@@ -216,8 +225,8 @@ and code this 4140 Other Vacant. ![](4140_1.PNG "fig:4140_1.PNG")
         construction project, we will follow the lead of the county and
         code it **4140 Other Vacant**.
 
-*Under Construction (4200 Series)*
-----------------------------------
+
+## Under Construction (4200 Series)
 
 Land has been platted for development, and construction activities are
 evident in aerial imagery (i.e. roadways begun, scraped earth,
@@ -236,6 +245,7 @@ instead of “under construction”. An obvious example of this is aerial
 photography that shows a building foundation that is now filled with
 water and no evidence from any source of active construction happening.
 
+
 ### Under Construction, Residential (4210)
 
 **Definition:** The “construction” designation is applied at the
@@ -247,39 +257,41 @@ will be coded to their finished use.
 
 **Discussion:**
 
-**Examples:** **Example 1: Conflicting Evidence** You may often find
-conflicting information in the reference layers with a parcel under
-construction since the parcel is in transition. In the photo below, the
-Tax Owner is still Aetna Bearing Company since there had been an
-industrial building on this parcel in the recent past. The parcel is
-mostly vacant and Cook County Assessor says this land is vacant, however
-there are two small buildings in the bottom left of the parcel which
-Google Street View reveals to be 3-flat apartment buildings. The 2010
-aerial photo shows a large dumpster behind these buildings and the
-Zoning reference layer codes this area as Planned Development. We will
-go with the more developed landuse of the apartment buildings over the
-vacant part of the parcel. We will conclude that these buildings are not
-completed yet because of the dumpster and that more will eventually be
-built because of the Zoning Code so the code for this will be **4210
-Under Construction, Residential**.
+**Examples:**
 
-<figure>
-<img src="4210_2.PNG" title="4210_2.PNG" width="400" alt="4210_2.PNG" /><figcaption aria-hidden="true">4210_2.PNG</figcaption>
-</figure>
+-   **Example 1: Conflicting Evidence.** You may often find
+    conflicting information in the reference layers with a parcel under
+    construction since the parcel is in transition. In the photo below, the
+    Tax Owner is still Aetna Bearing Company since there had been an
+    industrial building on this parcel in the recent past. The parcel is
+    mostly vacant and Cook County Assessor says this land is vacant, however
+    there are two small buildings in the bottom left of the parcel which
+    Google Street View reveals to be 3-flat apartment buildings. The 2010
+    aerial photo shows a large dumpster behind these buildings and the
+    Zoning reference layer codes this area as Planned Development. We will
+    go with the more developed landuse of the apartment buildings over the
+    vacant part of the parcel. We will conclude that these buildings are not
+    completed yet because of the dumpster and that more will eventually be
+    built because of the Zoning Code so the code for this will be **4210
+    Under Construction, Residential**.
+
+    ![](./img/4210_2.PNG)
 
 **Q&A:**
 
--   Q:'' What about the common areas of a new development that appear to
+-   *Q: What about the common areas of a new development that appear to
     be finished such as retention ponds in place, bushes planted, etc.
-    but most of the residential lots do not have houses on them yet?''
+    but most of the residential lots do not have houses on them yet?*
     -   **A:** It's ok to code these common areas in a new development
         that are basically finished as **1151 Residential Common**.
--   Q:'' How do a code a parcel that previously had a very small house
+
+-   *Q: How do a code a parcel that previously had a very small house
     on it, but now has a much bigger house which is under construction
-    on this parcel?''
+    on this parcel?*
     -   **A:** If it is obvious that this bigger house is not just a
         remodel and expansion of the older house, then code it "Under
         Construction".
+
 
 ### Under Construction, Commercial (4220)
 
@@ -291,6 +303,7 @@ Under Construction, Residential**.
 
 **Q&A:**
 
+
 ### Under Construction, Industrial (4230)
 
 **Definition:**
@@ -301,6 +314,7 @@ Under Construction, Residential**.
 
 **Q&A:**
 
+
 ### Under Construction, Other or Unknown (4240)
 
 **Definition:**
@@ -310,7 +324,3 @@ Under Construction, Residential**.
 **Examples:**
 
 **Q&A:**
-
----
-
-*Return to [A field guide to Land Use Inventory classifications](./README.md)*
