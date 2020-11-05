@@ -1,4 +1,9 @@
-# 1100 Series: Residential Land Uses
+---
+title: Residential (1100 Series)
+nav_order: 2
+---
+
+# Residential Land Uses (1100 Series)
 {: .no_toc }
 
 ## Table of Contents

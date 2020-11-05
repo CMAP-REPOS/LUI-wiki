@@ -1,4 +1,9 @@
-# 1500 Series: Transportation/Communication/Utilities (TCU) Land Uses
+---
+title: TCU (1500 Series)
+nav_order: 6
+---
+
+# Transportation/Communication/Utilities (TCU) Land Uses (1500 Series)
 {: .no_toc }
 
 ## Table of Contents

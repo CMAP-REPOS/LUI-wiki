@@ -1,3 +1,8 @@
+---
+title: Transitional/Redevelopment Parcels
+nav_order: 13
+---
+
 # Transitional/Redevelopment Parcels
 
 One shortcoming that was pointed out during the 2013 Update was the

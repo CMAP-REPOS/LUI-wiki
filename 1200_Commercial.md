@@ -1,4 +1,9 @@
-# 1200 Series: Commercial Land Uses
+---
+title: Commercial (1200 Series)
+nav_order: 3
+---
+
+# Commercial Land Uses (1200 Series)
 {: .no_toc }
 
 ## Table of Contents

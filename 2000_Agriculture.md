@@ -1,4 +1,9 @@
-# 2000: Agricultural Land
+---
+title: Agriculture (2000)
+nav_order: 7
+---
+
+# Agricultural Land (2000)
 
 **Definition:** Land identified in county parcel data as agricultural,
 where the parcel is dominated by: row crops, field crops & fallow field

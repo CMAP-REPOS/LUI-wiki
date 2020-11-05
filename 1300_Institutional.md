@@ -1,4 +1,9 @@
-# 1300 Series: Institutional Land Uses
+---
+title: Institutional (1300 Series)
+nav_order: 4
+---
+
+# Institutional Land Uses (1300 Series)
 {: .no_toc }
 
 ## Table of Contents

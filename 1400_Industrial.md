@@ -1,4 +1,9 @@
-# 1400 Series: Industrial Land Uses
+---
+title: Industrial (1400 Series)
+nav_order: 5
+---
+
+# Industrial Land Uses (1400 Series)
 {: .no_toc }
 
 ## Table of Contents

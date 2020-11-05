@@ -1,3 +1,8 @@
+---
+title: Coding Multiple Uses
+nav_order: 12
+---
+
 # Coding Multiple Uses
 {: .no_toc }
 

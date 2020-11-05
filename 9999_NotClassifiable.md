@@ -1,4 +1,9 @@
-# 9999: Not Classifiable
+---
+title: Not Classifiable (9999)
+nav_order: 11
+---
+
+# Not Classifiable (9999)
 
 **Definition:** Sliver or isolated parcel with no identifiable use.
 

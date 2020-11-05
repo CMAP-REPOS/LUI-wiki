@@ -1,4 +1,9 @@
-# 4000 Series: Vacant or Under Construction
+---
+title: Vacant/Construction (4000 Series)
+nav_order: 9
+---
+
+# Vacant or Under Construction (4000 Series)
 {: .no_toc }
 
 ## Table of Contents
