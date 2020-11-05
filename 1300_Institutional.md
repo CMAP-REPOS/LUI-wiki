@@ -1,9 +1,13 @@
 # 1300 Series: Institutional Land Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 **PLEASE NOTE:** The order presented below implies a sequence for
 selection. For example, a hospital within a public university would be
 coded **1310** (Medical and Health Care Facilities).

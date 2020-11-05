@@ -1,9 +1,13 @@
 # 1400 Series: Industrial Land Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 ## Mineral Extraction (1410)
 
 **Definition:** Includes coal mining; crude petroleum and natural gas

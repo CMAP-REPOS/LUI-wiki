@@ -1,9 +1,13 @@
 # Coding Multiple Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 The 2015 Inventory is our first attempt (since switching to a parcel
 base) at assigning multiple uses to parcels. The last two inventories
 had a MODIFIER flag that allowed for specific multiple-use combinations,

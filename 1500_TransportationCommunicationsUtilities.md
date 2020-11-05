@@ -1,9 +1,13 @@
 # 1500 Series: Transportation/Communication/Utilities (TCU) Land Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 ## Transportation Right-of-Way (ROW) (1510 Series)
 
 ### Rail ROW (1511)

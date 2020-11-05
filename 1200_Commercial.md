@@ -1,9 +1,13 @@
 # 1200 Series: Commercial Land Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 Detention/retention basins occupying commercial parcels are coded **1565
 Stormwater Management**.
 

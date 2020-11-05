@@ -1,9 +1,13 @@
 # 4000 Series: Vacant or Under Construction
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 ## Vacant/Undeveloped Land (4100 Series)
 
 **Definition:** Land in an undeveloped state, with no agricultural

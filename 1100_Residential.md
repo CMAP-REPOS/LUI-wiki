@@ -1,9 +1,13 @@
 # 1100 Series: Residential Land Uses
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 Land in predominantly residential use, including surrounding land that
 is a part of a residential development. This category excludes housing
 on military bases as well as group quarters housing. Group quarters

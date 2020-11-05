@@ -1,9 +1,13 @@
 # 3000 Series: Open Space
+{: .no_toc }
 
-#### Table of Contents
+## Table of Contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 ---
+
 **NOTE 1:** A large water body is coded the same as part of the
 surrounding open space unless it is a *huge* water body like Fox Lake
 and is a separate parcel.
