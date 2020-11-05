@@ -119,7 +119,9 @@ structures.
         ![](./img/1131_6.PNG)
 
 
-## K-12 Educational Facilities (1321)
+## Educational Facilities (1320 Series)
+
+### K-12 Educational Facilities (1321)
 
 **Definition:** Public and non-public schools as identified by the
 Illinois State Board of Education. Church/school combinations that share
@@ -200,7 +202,7 @@ particular combo.
         ![](./img/1520_2.PNG)
 
 
-## Post-Secondary Educational Facilities (1322)
+### Post-Secondary Educational Facilities (1322)
 
 **Definition:** Universities, colleges, community colleges; public, as
 well as for-profit and not-for-profit private schools. As identified by
