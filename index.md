@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 # A Field Guide to Land Use Inventory Classifications
 
 This page serves as the springboard for classification guidelines for
