@@ -1,6 +1,6 @@
 # 1300 Series: Institutional Land Uses
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

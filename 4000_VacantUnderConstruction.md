@@ -1,6 +1,6 @@
 # 4000 Series: Vacant or Under Construction
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

@@ -1,6 +1,6 @@
 # 1200 Series: Commercial Land Uses
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

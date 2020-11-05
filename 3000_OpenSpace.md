@@ -1,6 +1,6 @@
 # 3000 Series: Open Space
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

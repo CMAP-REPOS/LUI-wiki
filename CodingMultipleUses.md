@@ -1,6 +1,6 @@
 # Coding Multiple Uses
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

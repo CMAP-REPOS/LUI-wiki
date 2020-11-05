@@ -1,6 +1,6 @@
 # 1100 Series: Residential Land Uses
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---

@@ -1,6 +1,6 @@
 # 1400 Series: Industrial Land Uses
 
-**Table of Contents**
+#### Table of Contents
 * TOC
 {:toc}
 ---
