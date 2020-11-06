@@ -1,5 +1,5 @@
 ---
-title: Commercial (1200 Series)
+title: Commercial (12XX)
 nav_order: 3
 ---
 
@@ -31,7 +31,7 @@ ReferenceData folder
 size. This list is determined solely on data provided by CoStar, based
 on a region-wide query of shopping centers; only these 27 malls should
 receive the 1211 code. <!--[List of
-Malls](file://///cmap.local/shared/Projects\LandUseInventory\LUI_2010\Docs\WikiDocs\TableOf1211.xlsx).-->
+Malls](file://///cmap.local/shared/Projects/LandUseInventory/LUI_2010/Docs/WikiDocs/TableOf1211.xlsx).-->
 This classification should include the entire mall and associated
 parking, access roads and landscaping. This category should NOT include
 peripheral commercial properties that are not owned/managed by the mall

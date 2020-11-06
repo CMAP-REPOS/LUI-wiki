@@ -1,5 +1,5 @@
 ---
-title: Residential (1100 Series)
+title: Residential (11XX)
 nav_order: 2
 ---
 

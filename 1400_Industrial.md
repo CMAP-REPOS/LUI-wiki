@@ -1,5 +1,5 @@
 ---
-title: Industrial (1400 Series)
+title: Industrial (14XX)
 nav_order: 5
 ---
 

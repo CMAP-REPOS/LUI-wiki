@@ -1,5 +1,5 @@
 ---
-title: TCU (1500 Series)
+title: TCU (15XX)
 nav_order: 6
 ---
 

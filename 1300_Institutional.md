@@ -1,5 +1,5 @@
 ---
-title: Institutional (1300 Series)
+title: Institutional (13XX)
 nav_order: 4
 ---
 
