@@ -1,5 +1,6 @@
 title: LUI Field Guide
 remote_theme: pmarsceill/just-the-docs
+color_scheme: cmap
 plugins:
   - jekyll-relative-links
 relative_links:
