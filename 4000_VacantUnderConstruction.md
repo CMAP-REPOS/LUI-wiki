@@ -1,5 +1,5 @@
 ---
-title: Vacant/Construction (4XXX)
+title: Vacant/Construction (4000 Series)
 nav_order: 9
 ---
 

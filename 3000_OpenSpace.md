@@ -1,5 +1,5 @@
 ---
-title: Open Space (3XXX)
+title: Open Space (3000 Series)
 nav_order: 8
 ---
 
