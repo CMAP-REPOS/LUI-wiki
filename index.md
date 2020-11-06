@@ -1,6 +1,7 @@
 ---
 title: Home
 nav_order: 1
+search_exclude: true
 ---
 
 # A Field Guide to Land Use Inventory Classifications
