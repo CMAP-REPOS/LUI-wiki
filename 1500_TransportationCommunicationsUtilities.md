@@ -38,7 +38,7 @@ for Metra station code 1520 Other Linear Trans.
 
 Rail ROW (1511) alongside Com Ed Utility ROW (1561)
 
-!![](./img/1511_2.PNG)
+![](./img/1511_2.PNG)
 
 **Q&A:**
 
