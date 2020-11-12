@@ -19,6 +19,8 @@ include:
   - 3000_OpenSpace.md
   - 5000_Water.md
   - 9999_NotClassifiable.md
+exclude:
+  - README.md
 
 # Aux links for the upper right navigation
 aux_links:
