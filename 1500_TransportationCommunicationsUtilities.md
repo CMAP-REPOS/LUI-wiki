@@ -396,7 +396,7 @@ active use (i.e. golf course).
 **Definition:** Including: electric generation plants and substations;
 natural gas production plants and storage tanks; water pipelines; water
 towers and accompanying land; refuse and garbage plants; sorting of
-recyclables; incinerators.
+recyclables; incinerators. **Updated for 2018:** Data centers.
 
 **Discussion:** Some parcels that contain water treatment activities
 will be coded **1564** instead of the **1562** for a qualifying
