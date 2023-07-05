@@ -28,7 +28,8 @@ land had not also been set aside for water detention or retention.
 ## Medical Facilities (1310)
 
 **Definition:** Includes hospitals as well as nursing homes and other
-long-term care facilities.
+long-term care facilities including "assisted living" and "supportive
+living".
 
 **Primary Reference Layer:**
 
@@ -72,7 +73,10 @@ homes and independent living (multi-family) structures (assuming it's
 not a "spectrum" development), the reference layers should give a good
 clue. If it appears in the Long Term Care reference layer, or if there
 is a population listed in the I\_NURS field of the Census Block layer,
-then it is most likely a nursing home.
+then it is most likely a nursing home. For intermediate stages such as
+assisted and supportive living, consider if residents will regularly
+need help from staff (e.g. mobility, eating, dressing) or if there is
+simply staff on call for emergencies.
 
 **Examples:**
 
