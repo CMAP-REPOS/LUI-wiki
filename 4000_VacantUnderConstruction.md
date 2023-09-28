@@ -94,7 +94,9 @@ can be more difficult if buildings are still standing on the property.
 The general rule is that if you learn that a large property still
 standing was vacant in spring of 2010 and **there is no hope of
 rehabilitation for the same use,** then code the parcels as Vacant
-Commercial.
+Commercial. This category also includes small parcels that only contain
+a billboard. Billboards are not considered permanent structures, so if
+the parcel was bought it would be taken down.
 
 **Examples:**
 
