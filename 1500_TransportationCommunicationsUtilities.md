@@ -22,9 +22,8 @@ unless converted to non-rail use (i.e. rail-trail).
 
 **Discussion:** Generally, these parcels are easy to identify, not only
 because of their shape but also by ownership: Union Pacific, Chicago &
-Northwestern, etc. Some counties do not bother to include the name of
-the rail company, but it should be clear due to their shape and
-co-incidence with the FRA Rail Lines reference layer. The long linear
+Northwestern, RAILROAD, etc. Some counties do not bother to include the name of
+the rail company, but it should be clear due to their shape and appearance. The long linear
 parcels can be not only coincident with the railroad tracks but also
 running along side the tracks as additional right-of-way for the railway
 company.
@@ -104,11 +103,11 @@ Roadway**.
 
 **Definition:**
 
-**Discussion:**
+[//]: #**Discussion:**
 
-**Examples:**
+[//]: #**Examples:**
 
-**Q&A:**
+[//]: #**Q&A:**
 
 
 ## Other Linear Transportation with Associated Facilities (1520)
@@ -123,11 +122,11 @@ trucking equipment and maintenance facilities, taxicab transportation,
 and vehicle emissions testing centers. Category also includes marine
 craft transportation including commercial docks (e.g. wharves, piers,
 and docks) and terminals where clearly independent from other uses.
-Facilities servicing recreational craft are coded as marinas (\#1240,
+Facilities servicing recreational craft are coded as marinas (1240,
 Cultural/Entertainment). Intermodal facilities are coded separately as
 1570.
 
-**Discussion:**
+[//]: #**Discussion:**
 
 **Examples:**
 
@@ -206,7 +205,7 @@ a freight/trucking terminal which would be coded **1520**.
 freight, long-term parking, rental car facilities, etc) and are on
 airport property should be coded as 1530.
 
-**Examples:**
+[//]: #**Examples:**
 
 **Q&A:**
 
@@ -215,11 +214,10 @@ airport property should be coded as 1530.
     -   **A:** Code the parcels that strictly have to do with aircraft
         transportation as 1530.
 
--   *Q: How do I code VOR's and other facilities necessary for air
+-   *Q: How do I code navigational structures (VORs) and other facilities necessary for air
     transportation?*
-    -   **A:** For 2010 Land Use, only code actual runway facilities
-        as 1530. Code VOR's and Air Traffic Control Centers, for
-        example, as Government.
+    -   **A:** Only code actual runway facilities
+        as 1530. Code other structures, including VORs and Air Traffic Control Centers, as Government.
 
 
 ## Independent Automobile Parking (1540)
@@ -230,7 +228,7 @@ parcels owned by a municipality. Parking lots associated with another
 land use are coded to that particular use.
 
 **Discussion:** Parking associated with a Metra station, even if owned
-by a municipality, code as part of the railroad facility (1520).
+by a municipality, are coded as part of the railroad facility (1520).
 
 Parcels that are parking lots and/or multi-level structures and that are
 owned by a municipality in a commercial area are often off-street
@@ -278,7 +276,7 @@ look closely.
 
 ![](./img/1550_1.PNG)
 
-**Q&A:**
+[//]: #**Q&A:**
 
 
 ## Utilities and Waste Facilities (1560 Series)
@@ -288,7 +286,7 @@ look closely.
 **Definition:** Linear parcels owned by Nicor, Peoples Gas, or
 Commonwealth Edison/Exelon.
 
-**Discussion:**
+[//]: #**Discussion:**
 
 **Examples:**
 
@@ -332,20 +330,22 @@ Commonwealth Edison/Exelon.
 are publicly-owned, meaning taxpayer-funded, wastewater treatment
 facilities.
 
-**Discussion:** A good reference layer essential to use to identify
-these publicly-owned WWTP's (Wastewater Treatment Plants) is the one of
-Waterwater Treatment Plants based on NPDES (Nat. Pollutant Discharge
-Elimination System) records provided by the Illinois EPA.
+**Discussion:** Wastewater Treatment Plants (WWTPs) are often visually distinct
+thanks to their large circle or oval holding tanks, as in the picture below. In
+earlier inventories, a specific reference layer was used to identify these publicly-owned
+WWTPs based on NPDES (National Pollutant Discharge Elimination System) records
+provided by the Illinois EPA. If you suspect that you have a WWTP and the previous
+inventory did not also code the area as **1562**, inquire about finding a new version
+of this reference layer.
 
 You may find some small wasterwater treatment facilities that are NOT
 owned by a government taxing body, that are being used and funded by a
-nearby industrial or local housing development, and that are not in the
-WWTP reference layer. Code these **Other Utility/Waste 1564**. These are
-not general taxpayer-supported.
+nearby industrial or local housing development. Code these **Other Utility/Waste 1564**. These are
+not general taxpayer-supported and would not appear in the NPDES reference layer.
 
 In some towns you may find a parcel owned by the sanitary district that
-is a large, green field in which you can see large circles such as the
-one in the municipality of Wasco. While it is used to treat grey waste
+is a large, green field with distinct circles in the grass, like septic tanks.
+One example is slightly east of Wasco on Google Maps. While it is used to treat grey waste
 water, it is not a treatment plant or facility so code such a green
 field with large circles **Other Utility/Waste 1564** instead of using
 this WWTP code.
@@ -356,7 +356,7 @@ Wastewater treatment plant, Carpentersville.
 
 ![](./img/1562_1.PNG)
 
-**Q&A:**
+[//]: #**Q&A:**
 
 
 ### Landfill (1563)
@@ -364,9 +364,9 @@ Wastewater treatment plant, Carpentersville.
 **Definition:** Includes closed landfills, unless converted to another
 active use (i.e. golf course).
 
-**Discussion:**
+[//]: #**Discussion:**
 
-**Examples:**
+[//]: #**Examples:**
 
 **Q&A:**
 
@@ -393,10 +393,10 @@ active use (i.e. golf course).
 
 ### Other Utility/Waste (1564)
 
-**Definition:** Including: electric generation plants and substations;
+**Definition:** Including: electric generation plants and substations (except solar);
 natural gas production plants and storage tanks; water pipelines; water
 towers and accompanying land; refuse and garbage plants; sorting of
-recyclables; incinerators. **Updated for 2018:** Data centers.
+recyclables; incinerators.
 
 **Discussion:** Some parcels that contain water treatment activities
 will be coded **1564** instead of the **1562** for a qualifying
@@ -552,14 +552,44 @@ city-owned parcels should be coded **1565 Stormwater**.
         the middle of all commercial activity.
 
 
+### Data Center (1566)
+
+**Definition:** A facility that houses working servers providing the storage,
+management, distribution, and processing of digital data. These facilities may
+be a single building or series of buildings and may be purpose-built or use
+existing buildings. They include essential infrastructure like networked computers,
+data storage systems, environmental controls, and security systems. They might be used
+for cases such as electronic storage of data or cryptocurrency.
+
+[//]: #**Discussion:**
+
+[//]: #**Examples:**
+
+[//]: #**Q&A:**
+
+
+### Solar Farm (1567)
+
+**Definition:** A solar panel or array composed of multiple solar panels on 
+ground mounted rack or poles which are one of the primary use(s) for the 
+parcel of land on which it is located, or any solar energy system that has 
+a primary purpose for wholesale or retail sales of generated electricity.
+
+[//]: #**Discussion:**
+
+[//]: #**Examples:**
+
+[//]: #**Q&A:**
+
+
 ## Intermodal Facility (1570)
 
 **Definition:** Sites involved in the transfer of freight between
 truck/rail/marine transport. Does not include single-company facilities
 (such as UPS), which will be classed as 1430 Warehousing/Distribution.
 
-**Discussion:**
+[//]: #**Discussion:**
 
-**Examples:**
+[//]: #**Examples:**
 
-**Q&A:**
+[//]: #**Q&A:**
