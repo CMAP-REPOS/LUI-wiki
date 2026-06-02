@@ -1,6 +1,7 @@
-title: LUI Field Guide
+title: LUI Wiki
 remote_theme: pmarsceill/just-the-docs
 color_scheme: cmap
+markdown: kramdown
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -8,6 +9,8 @@ relative_links:
   collections: true
 include:
   - index.md
+  - field_guide_index.md
+  - training_index.md
   - CodingMultipleUses.md
   - TransitionalRedevelopmentParcels.md
   - 1100_Residential.md
@@ -24,7 +27,7 @@ exclude:
 
 # Aux links for the upper right navigation
 aux_links:
-  "LUI Field Guide on GitHub":
+  "LUI Wiki on GitHub":
     - "//github.com/CMAP-REPOS/LUI-wiki"
 
 # Makes Aux links open in a new tab. Default is false
@@ -40,3 +43,19 @@ gh_edit_link_text: "Edit this page on GitHub"
 gh_edit_repository: "https://github.com/CMAP-REPOS/LUI-wiki" # the github URL for your repo
 gh_edit_branch: "master" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
