@@ -1,6 +1,7 @@
 ---
 title: Vacant/Construction (4000 Series)
-nav_order: 9
+parent: Field Guide
+nav_order: 8
 ---
 
 # Vacant or Under Construction (4000 Series)

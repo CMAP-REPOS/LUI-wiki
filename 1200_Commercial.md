@@ -1,6 +1,7 @@
 ---
 title: Commercial (1200 Series)
-nav_order: 3
+parent: Field Guide
+nav_order: 2
 ---
 
 # Commercial Land Uses (1200 Series)

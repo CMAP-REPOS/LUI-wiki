@@ -1,6 +1,7 @@
 ---
 title: Agriculture (2000)
-nav_order: 7
+parent: Field Guide
+nav_order: 6
 ---
 
 # Agricultural Land (2000)

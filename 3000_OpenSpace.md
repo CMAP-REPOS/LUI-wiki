@@ -1,6 +1,7 @@
 ---
 title: Open Space (3000 Series)
-nav_order: 8
+parent: Field Guide
+nav_order: 7
 ---
 
 # Open Space (3000 Series)

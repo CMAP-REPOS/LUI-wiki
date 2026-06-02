@@ -1,6 +1,7 @@
 ---
 title: Residential (1100 Series)
-nav_order: 2
+parent: Field Guide
+nav_order: 1
 ---
 
 # Residential Land Uses (1100 Series)

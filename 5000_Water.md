@@ -1,6 +1,7 @@
 ---
 title: Water (5000)
-nav_order: 10
+parent: Field Guide
+nav_order: 9
 ---
 
 # Water (5000)
