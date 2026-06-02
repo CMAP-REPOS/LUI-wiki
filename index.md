@@ -19,6 +19,6 @@ The Field Guide is our term for the documentation and guidelines that determine 
 
 ## [LUI Training](./training_index.md)
 
-Coming soon {: .label .label-yellow}
+Coming soon {: .label .label-yellow S}
 
 The wiki also contains a repository of background information on the LUI project and process. Staff involved in producing the inventory are encouraged to use this as a refresher for their initial training sessions if any questions come up.
