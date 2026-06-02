@@ -1,6 +1,7 @@
 ---
 title: TCU (1500 Series)
-nav_order: 6
+parent: Field Guide
+nav_order: 5
 ---
 
 # Transportation/Communication/Utilities (TCU) Land Uses (1500 Series)

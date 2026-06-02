@@ -1,6 +1,7 @@
 ---
 title: Institutional (1300 Series)
-nav_order: 4
+parent: Field Guide
+nav_order: 3
 ---
 
 # Institutional Land Uses (1300 Series)

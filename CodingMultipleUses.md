@@ -1,6 +1,7 @@
 ---
 title: Coding Multiple Uses
-nav_order: 12
+parent: Field Guide
+nav_order: 11
 ---
 
 # Coding Multiple Uses

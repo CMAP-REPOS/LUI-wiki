@@ -1,6 +1,7 @@
 ---
 title: Transitional/Redevelopment Parcels
-nav_order: 13
+parent: Field Guide
+nav_order: 12
 ---
 
 # Transitional/Redevelopment Parcels

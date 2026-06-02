@@ -1,6 +1,7 @@
 ---
 title: Industrial (1400 Series)
-nav_order: 5
+parent: Field Guide
+nav_order: 4
 ---
 
 # Industrial Land Uses (1400 Series)
