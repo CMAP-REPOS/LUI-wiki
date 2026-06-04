@@ -21,7 +21,7 @@ visit the [Coding Multiple Uses](./CodingMultipleUses.md) and
 [Transitional/Redevelopment Parcels](./TransitionalRedevelopmentParcels.md)
 pages for guidance on these topics.
 
-{: .warning-title }
+{: .highlight }
 > We are slowly working on updating the field guide to remove outdated information such as reference layers. Please bear with us until it is complete, and treat those reference with caution. The principles of assigmnent are still valid!
 
 ## [Residential (1100 series)](./1100_Residential.md)
