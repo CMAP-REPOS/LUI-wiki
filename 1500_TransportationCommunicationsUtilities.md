@@ -568,11 +568,11 @@ for cases such as electronic storage of data or cryptocurrency.
 
 A purpose-built data center in an industrial section of Elk Grove Village.
 
-![](./img/1566_1.jpg)
+![](./img/1566_1.jpg){: width="75%"}
 
 Conversion of a historic building in South Loop, Chicago.
 
-![](./img/1566_2.jpg)
+![](./img/1566_2.jpg){: width="75%"}
 
 [//]: #**Q&A:**
 
@@ -590,11 +590,11 @@ a primary purpose for wholesale or retail sales of generated electricity.
 
 A rural solar farm outside Woodstock.
 
-![](./img/1567_1.jpg)
+![](./img/1567_1.jpg){: width="60%"}
 
 An urban solar farm in West Pullman (far south side of Chicago).
 
-![](./img/1567_2.jpg)
+![](./img/1567_2.jpg){: width="60%"}
 
 [//]: #**Q&A:**
 
