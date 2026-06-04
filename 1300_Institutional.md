@@ -121,11 +121,9 @@ structures.
 
 Autumn Leave Memory Care, Vernon Hills. The descriptions and floor plans on the website show that residents have private suites without full kitchens.
 
-![](./img/1311_1.jpg)
+![](./img/1311_1.png)
 
 [//]: **Q&A:**
-
-
 
 
 ## Educational Facilities (1320 Series)
