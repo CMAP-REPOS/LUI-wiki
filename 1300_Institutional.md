@@ -25,59 +25,58 @@ are owned by a different organization, such as a government entity.
 These institutional buildings could not have been built in that area if
 land had not also been set aside for water detention or retention.
 
+## Medical Facilities (1310 Series)
 
-## Medical Facilities (1310)
+### Medical (1310)
 
-**Definition:** Includes hospitals as well as nursing homes and other
-long-term care facilities including "assisted living" and "supportive
-living".
+**Definition:** Includes hospitals and clinics as well as nursing homes and rehab facilities with consistent medical attention.
 
-**Primary Reference Layer:**
+**Primary Reference Layer:** *CoStar Healthcare* points, categorized by "Secondary Type":
 
--   *HospitalsNursingHomes.lyr* in Reference folder, which contains:
-    -   Long-term care facilities, provided by the IL Dept of Public
-        Health;
-    -   Hospitals (IDPH);
-    -   Stand-alone same day surgical centers and
-    -   Polygons from the 2005 Land Use Inventory coded as 1310 MEDICAL
--   *CENBLOCK\_(county)*, Census block feature class with household and
-    group quarters data. The field **I\_NURS** lists the number of
-    people in that block living in nursing homes (which are considered
-    "Institutionalized Group Quarters").
+- Medical (1310)
+    - Hospital
+    - Medical
+    - Rehabilitation Center
+    - Skilled Nursing Facility
+- Medical Residential (1311)
+    - Assisted Living
+    - Congregate Senior Housing
+- Requires outside research
+    - Continuing Care Retirement Community (Likely mixed use - see [Coding Multiple Uses](./CodingMultipleUses.md))
+    - Null values
 
-**Discussion:** Since the reference layers for this use are fairly
-definite/reliable, and the number of properties for most counties not
-too overwhelming, this would be a good use to tackle at once, by going
-down the list of long-term care facilities in the county, zooming to and
-coding each one as you go. While hospitals are fairly obvious, other
-properties that might or might not fall in to this category need a
-little explanation.
+For inventories close to census years, also use *Census Block Populations* for group quarters. The **I_NURS** field lists the number of people living in nursing homes, which are consisdered "Institutionalized Group Quarters".
 
--   Medical office centers: basically, office buildings which are
-    primarily or completely taken up with physicians' offices, etc. If
-    they are not directly associated with and adjacent to a hospital,
-    these should be coded **1220: Office**.
--   Same day surgical centers, also called ambulatory surgical centers,
-    provide same-day surgical care, including diagnostic and preventive
-    procedures. In some cases you will find them in a building that is
-    not on a hospital campus. Also code these as institutional medical
-    as you would a hospital.
--   Senior "spectrum" properties: places that offer a wide range of care
-    within different portions of the property, with independent living
-    (considered multi-family) as well as nursing/long-term care
-    facilities. See Q&A below for how to handle these properties.
--   Independent living facilities should be coded **1130: Multi-Family**
-    (No Commercial Component)
+**Discussion:** Large hospital facilities will be fairly obvious from visuals and owner names, but other properties that might or might not fall into this category need a little explanation.
 
-As to the question of where to draw the distinction between nursing
-homes and independent living (multi-family) structures (assuming it's
-not a "spectrum" development), the reference layers should give a good
-clue. If it appears in the Long Term Care reference layer, or if there
-is a population listed in the I\_NURS field of the Census Block layer,
-then it is most likely a nursing home. For intermediate stages such as
-assisted and supportive living, consider if residents will regularly
-need help from staff (e.g. mobility, eating, dressing) or if there is
-simply staff on call for emergencies.
+Same day surgical centers, also called ambulatory surgical centers,
+provide same-day surgical care, including diagnostic and preventive
+procedures. In some cases you will find them in a building that is
+not on a hospital campus. Also code these as **1310: Medical**
+as you would a hospital.
+
+Medical office centers: basically, office buildings which are
+primarily or completely taken up with physicians' offices, etc. If
+they are not directly associated with and adjacent to a hospital,
+these should be coded **1220: Office**.
+
+As to the distinction between nursing homes, assisted living, independent living, and the wide range of "senior spectrum" or "continuing care" properties in between, we have a couple heuristics that can help. First, assess the level of self-sufficiency that the units will provide to residents. You may need to search for floor plans online.
+- For truly medical facilities (nursing homes, rehab), residents will have rooms but not separate units. Staff will be able to enter at any time. Code these **1310**.
+- In properties where residents have separate units with lockable doors but do not have a kitchen (assisted/supportive living, memory care), code these **1311: Medical Residential**.
+- If residents have separate units and full kitchens (independent living), these are simply **1130: Multi-Family Residential**. The senior aspect is more for community than medical care. Some senior communities may even include sections with small townhomes or houses for even more independent residents. These should also receive an appropriate Residential code from the **1000** series.
+
+In addition, if using the census block population layer, the presence of group quarters populations is a good indicator. Lastly, you can consider the amount of support residents will receive from staff. If they will need help on a daily/regular basis (e.g. mobility, eating, dressing) it is Medical or Medical Residential. If staff is simply on call for emergencies, it is Medical Residential or Residential.
+
+Large senior living communities will often contain several different types of housing that fall into multiple of these categories. If the buildings are broken up neatly across parcels, then code them individually without regard for the other land uses in the campus. In the more likely scenario that the different uses are combined on a parcel or even in the same building, code the parcel as the *largest land use* and put remaining codes in Landuse 2 (Multiple Uses). This applies even if the largest land use is Residential and not Medical or Medical Residential.
+<!-- Keep 1310 as Medical, used for Hospitals, Clinics, surgery centers, etc
+Establish 1311 as Medical (residential) use for Assisted Living, Memory Care (use residential units field)
+Leave Nursing Homes in 1310 as these are true group quarters, and the forecast here would be more for jobs than residents
+In the case of mixed campus, ]primary code would be for the largest use (1310 or 1311), with the remaining use in Landuse2 (entering units as necessary)
+Determining factor between 1130, 1310 and 1311
+If it's a true nursing home (i.e. residents don't have separate units, code 1310
+If residents have separate units (lockable door) but don't have a full kitchen (assisted living, memory care) code 1311
+If residents have a separate unit and full kitchen (independent living), code 1130 -->
+
 
 **Examples:**
 
@@ -131,6 +130,19 @@ structures.
         appropriate code.
 
         ![](./img/1131_6.PNG)
+
+
+## Medical Residential Facilities (1311)
+
+**Definition:** 
+
+**Discussion:** Refer to the discussion above under **1310: Medical**. You may be wondering why we draw the distinctions where we do. The answer is in CMAP's Socioeconomic Forecast model: if a parcel generates significant employment, such as a nursing home, we want to track the number of jobs and thus classify it as Medical. Conversely, if there are fewer jobs but many residents that may move in and out, we want to track the population and classify it as Medical Residential.
+
+[//]: **Examples:**
+
+[//]: **Q&A:**
+
+
 
 
 ## Educational Facilities (1320 Series)

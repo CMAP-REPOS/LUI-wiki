@@ -242,9 +242,9 @@ majority of buildings are 2-4 stories high and that there is evidence
 dwelling units in the upper floors. Buildings taller than 4 stories that
 are predominantly multi-family should be coded 1130 Multi-Family.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -555,7 +555,7 @@ are owned by recognizable names such as "Marriott" and "Hyatt." Many
 times they are owned by property management companies or developers. Use
 Bing Birds-Eye and Google Street View to verify.
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
