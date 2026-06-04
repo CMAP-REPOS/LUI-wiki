@@ -564,7 +564,7 @@ for cases such as electronic storage of data or cryptocurrency.
 
 [//]: #**Discussion:**
 
-#**Examples:**
+**Examples:**
 
 A purpose-built data center in an industrial section of Elk Grove Village.
 
@@ -586,15 +586,15 @@ a primary purpose for wholesale or retail sales of generated electricity.
 
 [//]: #**Discussion:**
 
-#**Examples:**
+**Examples:**
 
 A rural solar farm outside Woodstock.
 
-![](./img/1567_1.jpg){: width="60%"}
+![](./img/1567_1.jpg){: width="75%"}
 
 An urban solar farm in West Pullman (far south side of Chicago).
 
-![](./img/1567_2.jpg){: width="60%"}
+![](./img/1567_2.jpg){: width="75%"}
 
 [//]: #**Q&A:**
 
