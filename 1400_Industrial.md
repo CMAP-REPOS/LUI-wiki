@@ -21,9 +21,9 @@ mining; stone, sand, and clay quarrying. Includes active sites, as well
 as inactive sites which may contain water but show no attempt at
 reclamation or re-use.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -88,7 +88,7 @@ structurally and functionally industrial properties; in those cases the
 coders were instructed to ignore the Assessor and assign the appropriate
 Industrial code.
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -189,9 +189,9 @@ warehouse/distribution space at a particular location.
 **Definition:** Properties where the manufacturing of goods is the sole
 on-site activity.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -241,7 +241,7 @@ ft.
 
 ![](./img/1432_1.PNG)
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Flex or Indeterminate (1433)
@@ -345,7 +345,7 @@ Many junk yards or salvage yards for autos and/or trucks also can be
 businesses where used parts are sold to the public. We will still code
 these as **Storage 1450**.
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 

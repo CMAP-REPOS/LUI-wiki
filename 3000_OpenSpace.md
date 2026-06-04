@@ -76,7 +76,7 @@ qualifies as 3100, 3300 or something else:
         stormwater management/flood control in a non-residential setting
     -   **4140 Vacant Other**, if there is no apparent function
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -181,9 +181,9 @@ qualifies as 3100, 3300 or something else:
 including associated buildings and parking. Includes code for management
 agency type.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -332,7 +332,7 @@ protected through public ownership nor dedication as a Nature Preserve.
 Including but not limited to hunting clubs, scout camps, and private
 campgrounds.
 
-**Discussion:**
+[//]: **Discussion:**
 
 **Examples:** Aside from the short list in the definition, other types
 of places that can fall in this category include:
@@ -366,7 +366,7 @@ forest preserve parcel that happens to also contain a trail should be
 coded for the park or preserve, not for the trail. See Example with
 photo above under **3300**.
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 

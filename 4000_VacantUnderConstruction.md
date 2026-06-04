@@ -49,9 +49,9 @@ owned by an adjacent landowner), as well as undeveloped parcels in newer
 subdivisions where general construction activities have been completed
 (and are not owned by an adjacent landowner).
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -174,9 +174,9 @@ rehabilitation for the same use,** then code the parcels as Vacant
 Industrial. On the other hand, if the vacant industrial buildings appear
 to be able to be re-used, then code as the original industrial land use.
 
-**Examples:**
+[//]: **Examples:**
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Other Vacant (4140)
@@ -267,7 +267,7 @@ this is done to prevent stalled or “ghost” subdivisions from showing up
 as active developments. Finished structures within these subdivisions
 will be coded to their finished use.
 
-**Discussion:**
+[//]: **Discussion:**
 
 **Examples:**
 
@@ -307,32 +307,32 @@ will be coded to their finished use.
 
 ### Under Construction, Commercial (4220)
 
-**Definition:**
+[//]: **Definition:**
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Under Construction, Industrial (4230)
 
-**Definition:**
+[//]: **Definition:**
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Under Construction, Other or Unknown (4240)
 
-**Definition:**
+[//]: **Definition:**
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
-**Q&A:**
+[//]: **Q&A:**

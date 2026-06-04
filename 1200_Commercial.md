@@ -42,7 +42,7 @@ peripheral commercial properties that are not owned/managed by the mall
 
 ![](./img/1211_1.PNG)
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Regional & Community Retail Centers (1212)
@@ -125,7 +125,7 @@ Target store on Randall Road
 
 ![](./img/1214_1.PNG)
 
-**Q&A:**
+[//]: **Q&A:**
 
 
 ### Urban Mix (1215)

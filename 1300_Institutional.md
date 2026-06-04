@@ -68,14 +68,6 @@ As to the distinction between nursing homes, assisted living, independent living
 In addition, if using the census block population layer, the presence of group quarters populations is a good indicator. Lastly, you can consider the amount of support residents will receive from staff. If they will need help on a daily/regular basis (e.g. mobility, eating, dressing) it is Medical or Medical Residential. If staff is simply on call for emergencies, it is Medical Residential or Residential.
 
 Large senior living communities will often contain several different types of housing that fall into multiple of these categories. If the buildings are broken up neatly across parcels, then code them individually without regard for the other land uses in the campus. In the more likely scenario that the different uses are combined on a parcel or even in the same building, code the parcel as the *largest land use* and put remaining codes in Landuse 2 (Multiple Uses). This applies even if the largest land use is Residential and not Medical or Medical Residential.
-<!-- Keep 1310 as Medical, used for Hospitals, Clinics, surgery centers, etc
-Establish 1311 as Medical (residential) use for Assisted Living, Memory Care (use residential units field)
-Leave Nursing Homes in 1310 as these are true group quarters, and the forecast here would be more for jobs than residents
-In the case of mixed campus, ]primary code would be for the largest use (1310 or 1311), with the remaining use in Landuse2 (entering units as necessary)
-Determining factor between 1130, 1310 and 1311
-If it's a true nursing home (i.e. residents don't have separate units, code 1310
-If residents have separate units (lockable door) but don't have a full kitchen (assisted living, memory care) code 1311
-If residents have a separate unit and full kitchen (independent living), code 1130 -->
 
 
 **Examples:**
@@ -101,19 +93,6 @@ structures.
 
 **Q&A:**
 
--   *Q: Large senior living communities often have several different
-    types of housing as part of their community. How do I handle this?*
-    -   **A:** If a nursing home component of housing is in such a
-        parcel which also includes independent living houses,
-        townhouses, and/or apartments, then code the entire parcel as
-        medical. If there is a parcel in the senior community that is
-        entirely independent living residences, then code that parcel as
-        residential single-family detached, attached, or multifamily
-        depending on the type of independent housing in that parcel. If
-        the parcel is coded as single-family detached or attached, be
-        sure to change the residential units number to show how many
-        single-family units are in that one parcel.
-
 -   *Q: How do I code the parcel shown in the photo below. It is a
     senior living community with a majority of townhouses. Dun &
     Bradstreet points show some residences have small home-based
@@ -132,13 +111,17 @@ structures.
         ![](./img/1131_6.PNG)
 
 
-## Medical Residential Facilities (1311)
+### Medical Residential Facilities (1311)
 
-**Definition:** 
+**Definition:** Residential buildings with individual units that lack full kitchen facilities, and that offer varying degrees of personal/medical care to residents. Often targeted to specific groups such as Seniors, Veterans and persons with disabilities. Examples include Assisted Living, Supportive Living and Memory Care. Parcels coded Medical Residential should include unit counts whenever possible.
 
-**Discussion:** Refer to the discussion above under **1310: Medical**. You may be wondering why we draw the distinctions where we do. The answer is in CMAP's Socioeconomic Forecast model: if a parcel generates significant employment, such as a nursing home, we want to track the number of jobs and thus classify it as Medical. Conversely, if there are fewer jobs but many residents that may move in and out, we want to track the population and classify it as Medical Residential.
+**Discussion:** Refer to the extended discussion above under **1310: Medical**. As a reminder, "Independent Living" senior units should be classified as residential, while full Nursing Home and short-term Rehabilitation Centers should be classified as Medical. You may be wondering why we draw the distinctions where we do. The answer is in CMAP's Socioeconomic Forecast model: if a parcel generates significant employment, such as a nursing home, we want to track the number of jobs and thus classify it as Medical. Conversely, if there are fewer jobs but many residents that may move in and out, we want to track the population and classify it as Medical Residential.
 
-[//]: **Examples:**
+**Examples:**
+
+Autumn Leave Memory Care, Vernon Hills. The descriptions and floor plans on the website show that residents have private suites without full kitchens.
+
+![](./img/1311_1.jpg)
 
 [//]: **Q&A:**
 
@@ -159,7 +142,7 @@ unless the HQ is clearly distinguishable on its own parcel (in which
 case code that parcel 1330 GOVT). Don’t use the modifier field for this
 particular combo.
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -241,7 +224,7 @@ facilities. Some private colleges may be quite small. The enrollment
 number in that IBHE reference layer will be helpful to check. You can
 also look up the school on the [IBHE website](http://ibheprofiles.ibhe.org/).
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -283,9 +266,9 @@ military facilities (including military group housing quarters, military
 residences, training bases, arsenals, armories) such as the Great Lakes
 Naval Center and Illinois National Guard Centers.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -348,9 +331,9 @@ and operating correctional institutions. The facility is generally
 designed for the confinement, correction, and rehabilitation of adult
 and/or juvenile offenders sentenced by a court.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -475,9 +458,9 @@ even though the county code is not Exempt. **Examples:**
 
 **Definition:** Includes associated chapels and mausoleums.
 
-**Discussion:**
+[//]: **Discussion:**
 
-**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -626,6 +609,6 @@ Fermilab.
 **Discussion:** Argonne is entirely in DuPage County; Fermilab is in
 DuPage and Kane Counties.
 
-**Examples:**
+[//]: **Examples:**
 
-**Q&A:**
+[//]: **Q&A:**
