@@ -104,11 +104,11 @@ Roadway**.
 
 **Definition:**
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
-[//]: #**Examples:**
+[//]: **Examples:**
 
-[//]: #**Q&A:**
+[//]: **Q&A:**
 
 
 ## Other Linear Transportation with Associated Facilities (1520)
@@ -127,7 +127,7 @@ Facilities servicing recreational craft are coded as marinas (1240,
 Cultural/Entertainment). Intermodal facilities are coded separately as
 1570.
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
 **Examples:**
 
@@ -206,7 +206,7 @@ a freight/trucking terminal which would be coded **1520**.
 freight, long-term parking, rental car facilities, etc) and are on
 airport property should be coded as 1530.
 
-[//]: #**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -277,7 +277,7 @@ look closely.
 
 ![](./img/1550_1.PNG)
 
-[//]: #**Q&A:**
+[//]: **Q&A:**
 
 
 ## Utilities and Waste Facilities (1560 Series)
@@ -287,7 +287,7 @@ look closely.
 **Definition:** Linear parcels owned by Nicor, Peoples Gas, or
 Commonwealth Edison/Exelon.
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
 **Examples:**
 
@@ -357,7 +357,7 @@ Wastewater treatment plant, Carpentersville.
 
 ![](./img/1562_1.PNG)
 
-[//]: #**Q&A:**
+[//]: **Q&A:**
 
 
 ### Landfill (1563)
@@ -365,9 +365,9 @@ Wastewater treatment plant, Carpentersville.
 **Definition:** Includes closed landfills, unless converted to another
 active use (i.e. golf course).
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
-[//]: #**Examples:**
+[//]: **Examples:**
 
 **Q&A:**
 
@@ -562,7 +562,7 @@ existing buildings. They include essential infrastructure like networked compute
 data storage systems, environmental controls, and security systems. They might be used
 for cases such as electronic storage of data or cryptocurrency.
 
-[//]: #**Discussion:**
+**Discussion:** Many data centers are converted from warehouses, and to a lesser extent office buildings. A clear giveaway is the presence of large chillers/air conditioning units on the roof or next to the building, as shown in the examples below.
 
 **Examples:**
 
@@ -574,7 +574,7 @@ Conversion of a historic building in South Loop, Chicago.
 
 ![](./img/1566_2.jpg){: width="75%"}
 
-[//]: #**Q&A:**
+[//]: **Q&A:**
 
 
 ### Solar Farm (1567)
@@ -584,7 +584,7 @@ ground mounted rack or poles which are one of the primary use(s) for the
 parcel of land on which it is located, or any solar energy system that has 
 a primary purpose for wholesale or retail sales of generated electricity.
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
 **Examples:**
 
@@ -596,7 +596,7 @@ An urban solar farm in West Pullman (far south side of Chicago).
 
 ![](./img/1567_2.jpg){: width="75%"}
 
-[//]: #**Q&A:**
+[//]: **Q&A:**
 
 
 ## Intermodal Facility (1570)
@@ -605,8 +605,8 @@ An urban solar farm in West Pullman (far south side of Chicago).
 truck/rail/marine transport. Does not include single-company facilities
 (such as UPS), which will be classed as 1430 Warehousing/Distribution.
 
-[//]: #**Discussion:**
+[//]: **Discussion:**
 
-[//]: #**Examples:**
+[//]: **Examples:**
 
-[//]: #**Q&A:**
+[//]: **Q&A:**

@@ -27,48 +27,45 @@ land had not also been set aside for water detention or retention.
 
 ## Medical Facilities (1310 Series)
 
-### Medical (1310)
+In most cases, dedicated medical facilities fall into one of two categories: **1310: Medical** or **1311: Medical Residential**. We draw this distinction based on the services offered at the location, the duration of stays, and in the case of long-term stays the independence and facilities available to residents. Large hospital facilities will be fairly obvious from visuals and owner names, but the rules can get complex for other properties.
 
-**Definition:** Includes hospitals and clinics as well as nursing homes and rehab facilities with consistent medical attention.
+**Primary Reference Layer:** A good place to start is with *CoStar Healthcare* points, categorized by "Secondary Type":
 
-**Primary Reference Layer:** *CoStar Healthcare* points, categorized by "Secondary Type":
-
-- Medical (1310)
+- Medical (**1310**)
     - Hospital
     - Medical
     - Rehabilitation Center
     - Skilled Nursing Facility
-- Medical Residential (1311)
+- Medical Residential (**1311**)
     - Assisted Living
     - Congregate Senior Housing
 - Requires outside research
-    - Continuing Care Retirement Community (Likely mixed use - see [Coding Multiple Uses](./CodingMultipleUses.md))
+    - Continuing Care Retirement Community (Likely **mixed use** - see below and [Coding Multiple Uses](./CodingMultipleUses.md))
     - Null values
 
-For inventories close to census years, also use *Census Block Populations* for group quarters. The **I_NURS** field lists the number of people living in nursing homes, which are consisdered "Institutionalized Group Quarters".
+Another reference layer for inventories close after decennial censuses is *Census Block Group Quarter Populations*. The **I_NURS** field lists the number of people living in nursing homes, which are considered "Institutionalized Group Quarters" in the census. If there is a value in this field, you can deduce that there is a nursing home or similar facility in the census block that falls into **1310: Medical**.
 
-**Discussion:** Large hospital facilities will be fairly obvious from visuals and owner names, but other properties that might or might not fall into this category need a little explanation.
+**Same-Day Surgical Centers**, also called ambulatory surgical centers, provide same-day surgical care, including diagnostic and preventive procedures. Similarly, **Outpatient Care Facilities**, also called outpatient centers or clinics, provide patients with a range of hospital services without overnight stays. These types of facilities are often associated with healthcare organizations but may be located in buildings not on a hospital campus. Code these as **1310: Medical**.
 
-Same day surgical centers, also called ambulatory surgical centers,
-provide same-day surgical care, including diagnostic and preventive
-procedures. In some cases you will find them in a building that is
-not on a hospital campus. Also code these as **1310: Medical**
-as you would a hospital.
+**Medical office centers**, which are basically office buildings that are primarily or completely occupied with physicians' offices, etc. If these are not directly associated with *and* adjacent to a hospital, they should be coded as **1220: Office**.
 
-Medical office centers: basically, office buildings which are
-primarily or completely taken up with physicians' offices, etc. If
-they are not directly associated with and adjacent to a hospital,
-these should be coded **1220: Office**.
+**Urgent Care Centers**: If the parcel is owned by a healthcare entity *and* the urgent care occupies the entire building, code them **1310: Medical**. Otherwise, if they are part of a larger office building, code these **1220: Office** as well.
 
-As to the distinction between nursing homes, assisted living, independent living, and the wide range of "senior spectrum" or "continuing care" properties in between, we have a couple heuristics that can help. First, assess the level of self-sufficiency that the units will provide to residents. You may need to search for floor plans online.
-- For truly medical facilities (nursing homes, rehab), residents will have rooms but not separate units. Staff will be able to enter at any time. Code these **1310**.
-- In properties where residents have separate units with lockable doors but do not have a kitchen (assisted/supportive living, memory care), code these **1311: Medical Residential**.
-- If residents have separate units and full kitchens (independent living), these are simply **1130: Multi-Family Residential**. The senior aspect is more for community than medical care. Some senior communities may even include sections with small townhomes or houses for even more independent residents. These should also receive an appropriate Residential code from the **1000** series.
+**Distinguishing long-term care facilities:** Nursing homes, assisisted living, independent living, and the wide range of "senior spectrum" or "continuing care" properties in between. We have a couple heuristics that can help.
+- First, assess the level of self-sufficiency that the units will provide to residents. You may need to search for floor plans online.
+    - For truly medical facilities (nursing homes, rehab), residents will have rooms but not separate units. Staff will be able to enter at any time. Code these **1310: Medical**.
+    - In properties where residents have separate units with lockable doors but do not have a kitchen (assisted/supportive living, memory care), code these **1311: Medical Residential**.
+    - If residents have separate units and full kitchens (independent living), these are simply **1130: Multi-Family Residential**. The senior aspect is more for community than medical care. Some senior communities may even include sections with small townhomes or houses for even more independent residents. These should also receive an appropriate Residential code from the **1000** series.
+- In addition, if using the census block population layer, the presence of group quarters populations is a good indicator.
+- Lastly, you can consider the amount of support residents will receive from staff. If they will need help on a daily/regular basis (e.g. mobility, eating, dressing) it is Medical or Medical Residential. If staff is simply on call for emergencies, it is Medical Residential or Residential.
 
-In addition, if using the census block population layer, the presence of group quarters populations is a good indicator. Lastly, you can consider the amount of support residents will receive from staff. If they will need help on a daily/regular basis (e.g. mobility, eating, dressing) it is Medical or Medical Residential. If staff is simply on call for emergencies, it is Medical Residential or Residential.
+ **Why do we draw the distinctions where we do?** The answer is in CMAP's Socioeconomic Forecast model: if a parcel generates significant employment, such as a hospital, clinic, or nursing home, we want to track the number of jobs and thus classify it as Medical. Conversely, if there are fewer jobs but many residents that may move in and out, we want to track the population and classify it as Medical Residential. If the land use is not dedicated to medical care, such as the Office or Residential examples, then we must adhere to the principle that we are tracking the actual usage of the land and not the intention of the owners/businesses present.
 
-Large senior living communities will often contain several different types of housing that fall into multiple of these categories. If the buildings are broken up neatly across parcels, then code them individually without regard for the other land uses in the campus. In the more likely scenario that the different uses are combined on a parcel or even in the same building, code the parcel as the *largest land use* and put remaining codes in Landuse 2 (Multiple Uses). This applies even if the largest land use is Residential and not Medical or Medical Residential.
+### Medical (1310)
 
+**Definition:** Includes hospitals and other dedicated facilities providing short-term or immediate care, as well as nursing homes and rehab facilities with consistent medical attention.
+
+**Discussion:** Refer to the extended discussion above.
 
 **Examples:**
 
@@ -115,11 +112,11 @@ structures.
 
 **Definition:** Residential buildings with individual units that lack full kitchen facilities, and that offer varying degrees of personal/medical care to residents. Often targeted to specific groups such as Seniors, Veterans and persons with disabilities. Examples include Assisted Living, Supportive Living and Memory Care. Parcels coded Medical Residential should include unit counts whenever possible.
 
-**Discussion:** Refer to the extended discussion above under **1310: Medical**. As a reminder, "Independent Living" senior units should be classified as residential, while full Nursing Home and short-term Rehabilitation Centers should be classified as Medical. You may be wondering why we draw the distinctions where we do. The answer is in CMAP's Socioeconomic Forecast model: if a parcel generates significant employment, such as a nursing home, we want to track the number of jobs and thus classify it as Medical. Conversely, if there are fewer jobs but many residents that may move in and out, we want to track the population and classify it as Medical Residential.
+**Discussion:** Refer to the extended discussion above. As a reminder, "Independent Living" senior units should be classified as residential, while full Nursing Home and short-term Rehabilitation Centers should be classified as Medical.
 
 **Examples:**
 
-Autumn Leave Memory Care, Vernon Hills. The descriptions and floor plans on the website show that residents have private suites without full kitchens.
+Autumn Leaves Memory Care, Vernon Hills. The descriptions and floor plans on the website show that residents have private suites without full kitchens.
 
 ![](./img/1311_1.png){: width="75%"}
 
