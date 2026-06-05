@@ -51,7 +51,7 @@ Another reference layer for inventories close after decennial censuses is *Censu
 
 **Urgent Care Centers**: If the parcel is owned by a healthcare entity *and* the urgent care occupies the entire building, code them **1310: Medical**. Otherwise, if they are part of a larger office building, code these **1220: Office** as well.
 
-**Distinguishing long-term care facilities:** Nursing homes, assisisted living, independent living, and the wide range of "senior spectrum" or "continuing care" properties in between. We have a couple heuristics that can help.
+**Distinguishing long-term care facilities:** Nursing homes, assisted living, independent living, and the wide range of "senior spectrum" or "continuing care" properties in between. We have a couple heuristics that can help.
 - First, assess the level of self-sufficiency that the units will provide to residents. You may need to search for floor plans online.
     - For truly medical facilities (nursing homes, rehab), residents will have rooms but not separate units. Staff will be able to enter at any time. Code these **1310: Medical**.
     - In properties where residents have separate units with lockable doors but do not have a kitchen (assisted/supportive living, memory care), code these **1311: Medical Residential**.
@@ -74,7 +74,7 @@ Sherman Hospital, Elgin.
 ![](./img/1310_1.PNG)
 
 Nursing home in Elgin. Corroborated by the *Long Term Care* reference layer,
-and by the presense of a population in the census block living in nursing homes
+and by the presence of a population in the census block living in nursing homes
 (`I_NURS > 0`).
 
 ![](./img/1310_2.PNG)
